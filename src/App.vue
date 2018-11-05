@@ -1,36 +1,24 @@
 <template>
   <div id="app">
-    <GmapMap
-      :center="center"
-      :zoom="13"
-      style="height: 1000px; width: 2000px;"
-      >
-      <GmapMarker
-        :key="index"
-        v-for="(m, index) in markers"
-        :position="m.position"
-        :clickable="true"
-        :draggable="true"
-        @click="center=m.position"
-        />
-    </GmapMap>
+    <router-view/>
   </div>
 </template>
-
 <script>
+import ItinGen from '@/components/ItinGen'
 export default {
-  data () {
-    return {
-      center: { lat: 41.83, lng: -87.623 },
-      markers: [
-        {
-          position: { lat: 41.788, lng: -87.5987 }
-        },
-        {
-          position: { lat: 41.8676, lng: -87.614 }
-        }
-      ]
-    }
+  name: 'App',
+  components: {
+    ItinGen
   }
 }
 </script>
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>

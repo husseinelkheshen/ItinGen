@@ -5,6 +5,7 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import VueGeolocation from 'vue-browser-geolocation'
 import App from './App'
 import router from './router'
+import ItinGen from './components/ItinGen'
 
 Vue.use(VueGoogleMaps, {
   load: {
@@ -20,6 +21,6 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: { App, ItinGen },
   template: '<App/>'
 })
