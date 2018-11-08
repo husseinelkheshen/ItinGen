@@ -5,6 +5,8 @@
 # NOTE: none of the events that we are getting from the ticketmaster api will
 #       be put into the permanent events table; everything is going into the
 #       one time event table
+# NOTE: many more tests will be added as more code is written and unique
+#       cases may appear
 
 
 # check that single venue data is valid
@@ -42,19 +44,19 @@ def venue_check(venue):
     '''
     valid = True
     if not venue.get("venue_id", 0) == int:
-        print("TYPE ERROR: venue_id should be int")
+        print("\tTYPE ERROR: venue_id should be int")
         valid = False
     if not venue.get("venue_name", 0) == str:
-        print("TYPE ERROR: venue_name should be str")
+        print("\tTYPE ERROR: venue_name should be str")
         valid = False
     if not venue.get("latitude", 0) == float:
-        print("TYPE ERROR: latitude should be float")
+        print("\tTYPE ERROR: latitude should be float")
         valid = False
     if not venue.get("longitude", 0) == float:
-        print("TYPE ERROR: longitude should be float")
+        print("\tTYPE ERROR: longitude should be float")
         valid = False
     if not venue.get("address", 0) == str:
-        print("TYPE ERROR: address should be str")
+        print("\tTYPE ERROR: address should be str")
         valid = False
 
     return valid
@@ -102,29 +104,29 @@ def event_check(event):
     '''
     valid = True
     if not event.get("event_id", 0) == int:
-        print("TYPE ERROR: event_id should be int")
+        print("\tTYPE ERROR: event_id should be int")
         valid = False
     if not event.get("event_name", 0) == str:
-        print("TYPE ERROR: event_name should be str")
+        print("\tTYPE ERROR: event_name should be str")
         valid = False
     if not event.get("venue_id", 0) == int:
-        print("TYPE ERROR: venue_id should be int")
+        print("\tTYPE ERROR: venue_id should be int")
         valid = False
     if not event.get("start", 0) == int:
-        print("TYPE ERROR: start should be int")
+        print("\tTYPE ERROR: start should be int")
         valid = False
     if not event.get("end", 0) == int:
-        print("TYPE ERROR: end should be int")
+        print("\tTYPE ERROR: end should be int")
         valid = False
     # still need to standardize our date formats across apis
     # if not event.get("event_date", 0) == date:
-    #     print("TYPE ERROR: event_date should be date")
+    #     print("\tTYPE ERROR: event_date should be date")
     #     valid = False
     if not event.get("tags", 0) == int:
-        print("TYPE ERROR: tags should be list")
+        print("\tTYPE ERROR: tags should be list")
         valid = False
     if not event.get("price", 0) == float:
-        print("TYPE ERROR: price should be float")
+        print("\tTYPE ERROR: price should be float")
         valid = False
 
     return valid
@@ -150,7 +152,7 @@ def check_all_venue_id(events, venues):
         venue_id = event["venue_id"]
         if not venue_id in venues:
             event_id = event["event_id"]
-            print("EVENT ERROR: event %d has invalid venue_id" % event_id)
+            print("\tEVENT ERROR: event %d has invalid venue_id" % event_id)
             valid = False
 
     return valid
