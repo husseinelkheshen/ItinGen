@@ -7,19 +7,19 @@ def converttime_yelp(milittime):
 
 # validate the length of the business dict
 def validate_dictlength(bizdict):
-    return false
+    return False
 
 # validate the coordinates field of a business dict
 def validate_coordinates(bizdict):
-    return false
+    return False
 
 # validate the location field of a business dict
 def validate_location(bizdict):
-    return false
+    return False
 
 # validate the yelp-assigned ID of a business dict
 def validate_yelpID(bizdict):
-    return false
+    return False
 
 # SAMPLE DICTIONARIES FOR TESTING validate_dictlength
 
@@ -32,49 +32,49 @@ sampledict = {
             "hours_type": "REGULAR",
             "open": [
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 0,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 1,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 2,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 3,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 4,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 5,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 6,
                     "start": "1730"
                 }
             ],
-        "is_open_now": false
+        "is_open_now": False
         }
     ],
     "categories": [
@@ -112,49 +112,49 @@ sampledict2 = {
             "hours_type": "REGULAR",
             "open": [
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 0,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 1,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 2,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 3,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 4,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 5,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 6,
                     "start": "1730"
                 }
             ],
-        "is_open_now": false
+        "is_open_now": False
         }
     ],
     "categories": [
@@ -175,57 +175,57 @@ sampledict3 = {}
 # wrong number of fields
 sampledict4 = {
     "id": "WavvLdfdP6g8aZTtbBQHTw",
-    "dummy_field": "dummy_value"
-    "extra_dummy_field": "extra_dummy_value"
+    "dummy_field": "dummy_value",
+    "extra_dummy_field": "extra_dummy_value",
     "name": "Gary Danko",
     "hours": [
         {
             "hours_type": "REGULAR",
             "open": [
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 0,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 1,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 2,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 3,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 4,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 5,
                     "start": "1730"
                 },
                 {
-                    "is_overnight": false,
+                    "is_overnight": False,
                     "end": "2200",
                     "day": 6,
                     "start": "1730"
                 }
             ],
-        "is_open_now": false
+        "is_open_now": False
         }
     ],
     "categories": [
@@ -317,7 +317,7 @@ sampledict8 = {
         "state": "CA",
         "country": "US",
     },
-    "id": true,
+    "id": True,
 }
 
 # coord: longitude out of range - lower
@@ -366,7 +366,7 @@ sampledict11 = {
         "address1": "800 N Point St",
         "address2": "",
         "address3": "",
-        "city": 54
+        "city": 54,
         "state": "CA",
         "zip_code": "94109",
         "country": "US",
@@ -378,14 +378,14 @@ sampledict11 = {
 sampledict12 = {
     "coordinates": {
         "latitude": 37.805,
-        "longitude": false
+        "longitude": False
     },
     "location": {
         "address1": "800 N Point St",
         "address2": "",
         "address3": "",
         "city": "San Francisco",
-        "state": false
+        "state": False,
         "zip_code": "94109",
         "country": "US",
     },
@@ -398,7 +398,7 @@ sampledict13 = {
         "address2": "",
         "address3": "",
         "city": "San Francisco",
-        "state": "CA"
+        "state": "CA",
         "zip_code": 94109,
         "country": "US",
     },
@@ -411,7 +411,7 @@ sampledict14 = {
         "address2": "",
         "address3": "",
         "city": "San Francisco",
-        "state": "CA"
+        "state": "CA",
         "zip_code": "94109",
         "country": 3.5,
     },
@@ -436,25 +436,25 @@ class TestTimeConversion(unittest.TestCase):
         with self.assertRaises(TypeError):
             converttime_yelp("2401")
 
-class TestDictProperties(unittest.Testcase):
+class TestDictProperties(unittest.TestCase):
     def test_validate_dictlength(self):
         self.assertTrue(validate_dictlength(sampledict))
         self.assertFalse(validate_dictlength(sampledict2))
         self.assertFalse(validate_dictlength(sampledict3))
         self.assertFalse(validate_dictlength(sampledict4))
 
-class TestBizProperties(unittest.Testcase):
+class TestBizProperties(unittest.TestCase):
     def test_validate_coordinates(self):
-        self.assertFalse(validate_ccordinates(sampledict3))
-        self.assertFalse(validate_ccordinates(sampledict5))
-        self.assertFalse(validate_ccordinates(sampledict6))
-        self.assertFalse(validate_ccordinates(sampledict7))
-        self.assertFalse(validate_ccordinates(sampledict8))
-        self.assertFalse(validate_ccordinates(sampledict9))
-        self.assertFalse(validate_ccordinates(sampledict10))
-        self.assertFalse(validate_ccordinates(sampledict11))
-        self.assertFalse(validate_ccordinates(sampledict12))
-        self.assertTrue(validate_ccordinates(sampledict))
+        self.assertFalse(validate_coordinates(sampledict3))
+        self.assertFalse(validate_coordinates(sampledict5))
+        self.assertFalse(validate_coordinates(sampledict6))
+        self.assertFalse(validate_coordinates(sampledict7))
+        self.assertFalse(validate_coordinates(sampledict8))
+        self.assertFalse(validate_coordinates(sampledict9))
+        self.assertFalse(validate_coordinates(sampledict10))
+        self.assertFalse(validate_coordinates(sampledict11))
+        self.assertFalse(validate_coordinates(sampledict12))
+        self.assertTrue(validate_coordinates(sampledict))
     def test_validate_location(self):
         self.assertFalse(validate_location(sampledict5))
         self.assertFalse(validate_location(sampledict6))
@@ -463,7 +463,7 @@ class TestBizProperties(unittest.Testcase):
         self.assertFalse(validate_location(sampledict9))
         self.assertFalse(validate_location(sampledict10))
         self.assertFalse(validate_location(sampledict11))
-        self.assertFalse(validate_location(sampledic12))
+        self.assertFalse(validate_location(sampledict12))
         self.assertFalse(validate_location(sampledict13))
         self.assertFalse(validate_location(sampledict14))
         self.assertTrue(validate_location(sampledict))
@@ -472,6 +472,7 @@ class TestBizProperties(unittest.Testcase):
         self.assertFalse(validate_yelpID(sampledict6))
         self.assertFalse(validate_yelpID(sampledict7))
         self.assertFalse(validate_yelpID(sampledict8))
+        self.assertTrue(validate_yelpID(sampledict))
 
 
 if __name__ == '__main__':
