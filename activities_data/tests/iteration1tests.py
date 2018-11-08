@@ -1,29 +1,29 @@
 import unittest
 
-// convert time from military time (string) to minutes after midnight (int)
-// returns an int
+# convert time from military time (string) to minutes after midnight (int)
+# returns an int
 def converttime_yelp(milittime):
     return 0
 
-// validate the length of the business dict
+# validate the length of the business dict
 def validate_dictlength(bizdict):
     return false
 
-// validate the coordinates field of a business dict
+# validate the coordinates field of a business dict
 def validate_coordinates(bizdict):
     return false
 
-// validate the location field of a business dict
+# validate the location field of a business dict
 def validate_location(bizdict):
     return false
 
-// validate the yelp-assigned ID of a business dict
+# validate the yelp-assigned ID of a business dict
 def validate_yelpID(bizdict):
     return false
 
-// SAMPLE DICTIONARIES FOR TESTING validate_dictlength
+# SAMPLE DICTIONARIES FOR TESTING validate_dictlength
 
-// right number of fields
+# right number of fields
 sampledict = {
     "id": "WavvLdfdP6g8aZTtbBQHTw",
     "name": "Gary Danko",
@@ -103,7 +103,7 @@ sampledict = {
     },
 }
 
-// wrong number of fields
+# wrong number of fields
 sampledict2 = {
     "id": "WavvLdfdP6g8aZTtbBQHTw",
     "name": "Gary Danko",
@@ -169,10 +169,10 @@ sampledict2 = {
     },
 }
 
-// wrong number of fields
+# wrong number of fields
 sampledict3 = {}
 
-// wrong number of fields
+# wrong number of fields
 sampledict4 = {
     "id": "WavvLdfdP6g8aZTtbBQHTw",
     "dummy_field": "dummy_value"
@@ -242,14 +242,14 @@ sampledict4 = {
 
 
 
-// VALIDATION SAMPLE DICTIONARIES: for validate_coordinates,
-// validate_location, and validate_yelpID
+# VALIDATION SAMPLE DICTIONARIES: for validate_coordinates,
+# validate_location, and validate_yelpID
 
 
 
-// coord: missing latitude
-// location: missing address line 1
-// id: missing id
+# coord: missing latitude
+# location: missing address line 1
+# id: missing id
 sampledict5 = {
     "coordinates": {
         "longitude": -122.42058
@@ -264,9 +264,9 @@ sampledict5 = {
     },
 }
 
-// coord: missing longitude
-// location: missing city
-// id: wrong type
+# coord: missing longitude
+# location: missing city
+# id: wrong type
 sampledict6 = {
     "coordinates": {
         "latitude": 37.80587,
@@ -282,9 +282,9 @@ sampledict6 = {
     "id": 17,
 }
 
-// coord: latitiude out of range - upper
-// location: missing state
-// id: wrong type
+# coord: latitiude out of range - upper
+# location: missing state
+# id: wrong type
 sampledict7 = {
     "coordinates": {
         "latitude": 95.0,
@@ -301,9 +301,9 @@ sampledict7 = {
     "id": 34.67,
 }
 
-// coord: latitiude out of range - lower
-// location: missing zip code
-// id: wrong type
+# coord: latitiude out of range - lower
+# location: missing zip code
+# id: wrong type
 sampledict8 = {
     "coordinates": {
         "latitude": -100.5,
@@ -320,8 +320,8 @@ sampledict8 = {
     "id": true,
 }
 
-// coord: longitude out of range - lower
-// location: missing county
+# coord: longitude out of range - lower
+# location: missing county
 sampledict9 = {
     "coordinates": {
         "latitude": 37.805,
@@ -337,8 +337,8 @@ sampledict9 = {
     },
 }
 
-// coord: longitude out of range - upper
-// location: address 1 wrong type
+# coord: longitude out of range - upper
+# location: address 1 wrong type
 sampledict10 = {
     "coordinates": {
         "latitude": 37.805,
@@ -355,8 +355,8 @@ sampledict10 = {
     },
 }
 
-// coord: latitude wrong type
-// location: city wrong type
+# coord: latitude wrong type
+# location: city wrong type
 sampledict11 = {
     "coordinates": {
         "latitude": "a",
@@ -373,8 +373,8 @@ sampledict11 = {
     },
 }
 
-// coord: longitude wrong type
-// location: state wrong type
+# coord: longitude wrong type
+# location: state wrong type
 sampledict12 = {
     "coordinates": {
         "latitude": 37.805,
@@ -391,7 +391,7 @@ sampledict12 = {
     },
 }
 
-// location: zip code wrong type
+# location: zip code wrong type
 sampledict13 = {
     "location": {
         "address1": "800 N Point St",
@@ -404,7 +404,7 @@ sampledict13 = {
     },
 }
 
-// location: country wrong type
+# location: country wrong type
 sampledict14 = {
     "location": {
         "address1": "800 N Point St",
