@@ -21,15 +21,14 @@
     let directionsService = new google.maps.DirectionsService();
 
     function calcRoute() {
-      let origin      = new google.maps.LatLng(<%= @locs[0][:lat] %>, <%= @locs[0][:lng] %>);
-      let destination = new google.maps.LatLng(<%= @locs[1][:lat] %>, <%= @locs[1][:lng] %>);
-      let len = <%= @locs.size %>;
+      let origin      = new google.maps.LatLng(<%= @pts[0][:lat] %>, <%= @pts[0][:lng] %>);
+      let destination = new google.maps.LatLng(<%= @pts[1][:lat] %>, <%= @pts[1][:lng] %>);
       let events = [];
-      for (let i = 2; i < len; i++) {
-        let event = new google.maps.LatLng(<%= @locs[@i][:lat] %>, <%= @locs[@i][:lng]);
-        events.append({location: event, stopover: true});
-      }
-      console.log(events)
+      let event;
+      <% @locs.each do |loc| %>
+        event = new google.maps.LatLng(<%= loc[:lat] %>, <%= loc[:lng] %>);
+        events.push({location: event, stopover: true});
+      <% end %>
       let request = {
         origin:      origin,
         destination: destination,
