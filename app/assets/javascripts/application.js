@@ -11,5 +11,8 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require activestorage
 //= require turbolinks
+//= require gmaps/google
+//= require maps
 //= require_tree .
