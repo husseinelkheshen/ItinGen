@@ -1,24 +1,19 @@
-# README
+# ItinGen
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ItinGen is a web based application that allows users to randomly
+generate optimized itineraries for their schedules to explore a new city
+or rediscover a city they have been living in for years
 
-Things you may want to cover:
+## Setup Rails
 
-* Ruby version
+https://gorails.com/setup
 
-* System dependencies
+## Starting the App
 
-* Configuration
+```bash
+$ bundle
+$ rake db:setup
+$ rails s
+```
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
