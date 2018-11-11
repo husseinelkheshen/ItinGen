@@ -44,7 +44,7 @@
 
     calcRoute();
 
-    var handler = Gmaps.build('Google');
+    let handler = Gmaps.build('Google');
     handler.buildMap({ internal: {id: 'map'}}, function(){
       directionsDisplay.setMap(handler.getMap());
     });
