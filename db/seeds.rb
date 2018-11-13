@@ -1,5 +1,5 @@
 require "json"
-events = JSON.parse(File.read('/path/to/events/json'))
-events.each do |event|
-	Events.create!(event)
+venues = JSON.parse(File.read('activities_data/venues_11122018.json'))
+venues.each do |venue|
+	Venue.create!(venue)
 end
