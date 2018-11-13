@@ -4,7 +4,13 @@ import geohash2
 import time
 import json
 # this is the credential file and is not in the repository
-from tm_auth import *
+# if credential file cannot be found, use fake credentials file
+try:
+    from tm_auth import *
+except:
+    print("ERROR: credentials file is missing, importing fake credentials")
+    from tm_fauth import *
+# testing functions
 from tm_tests import *
 
 
