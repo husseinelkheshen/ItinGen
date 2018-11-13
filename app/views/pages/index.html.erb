@@ -8,10 +8,6 @@
   </div>
 </div>
 
-
-
-
-
 <!-- Sidebar header -->
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left sidebar-panel" style="display:block; width: 20%;" id="mySidebar">
   <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Create Account </button>
@@ -21,52 +17,19 @@
   <!-- End sidebar header -->
 
   <!-- sidebar body cards -> these need to be dynamically generated with Ruby-->
-  <div class="card" style="width: 100%;">
-    <div class="card-header">
-      A
+  <% @locs.each do |loc| %>
+    <div class="card" style="width: 100%;">
+      <div class="card-header">
+        [Letter]
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">[Venue Name]</h5>
+        <p class="card-text">[Venue Location]</p>
+        <!-- link below could also be part of dynamically generate-->
+        <a href="https://www.uchicago.edu/" class="btn btn-primary">[See Venue]</a>
+      </div>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">University of Chicago</h5>
-      <p class="card-text">Blah blah lovely destination blah blah photo op</p>
-      <!-- link below could also be part of dynamically generate-->
-      <a href="https://www.uchicago.edu/" class="btn btn-primary">See UChicago</a>
-    </div>
-  </div>
-  <div class="card" style="width: 100%;">
-    <div class="card-header">
-      B
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">University of Chicago</h5>
-      <p class="card-text">Blah blah lovely destination blah blah photo op</p>
-      <!-- link below could also be part of dynamically generate-->
-      <a href="https://www.uchicago.edu/" class="btn btn-primary">See Restaurant B</a>
-    </div>
-  </div>
-  <div class="card" style="width: 100%;">
-    <div class="card-header">
-      C
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">University of Chicago</h5>
-      <p class="card-text">Blah blah lovely destination blah blah photo op</p>
-      <!-- link below could also be part of dynamically generate-->
-      <a href="https://www.uchicago.edu/" class="btn btn-primary">See MSI</a>
-    </div>
-  </div>
-  <div class="card" style="width: 100%;">
-    <div class="card-header">
-      D
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">University of Chicago</h5>
-      <p class="card-text">Blah blah lovely destination blah blah photo op</p>
-      <!-- link below could also be part of dynamically generate-->
-      <a href="https://www.uchicago.edu/" class="btn btn-primary">See MSI</a>
-    </div>
-  </div>
-
-
+  <% end %>
   <!--sidebar body-->
 </div>
 
