@@ -1,3 +1,6 @@
+# Please move your testing files into correct directory
+# This directory will be removed by end of day
+
 # Activity Tests
 
 This directory contains all of the scripts that run tests on our
