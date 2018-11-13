@@ -9,38 +9,26 @@
 
 
 <body id="home">
-<div style='width: 100%; height: 100%'>
-  <div id="map" style='width: 80%; height: 100%; float: right;'>
-    
+  <div style='width: 100%; height: 100%'>
+    <div style='width: 80%; height: 100%; float: right;' class="container">
+      <div id="map" style='width: 100%; height: 100%;' class="map"></div>
+      <div class="rate rate-btn-container">
+        <button id="like" type="button" class="btn btn-sm rate-btn btn-link"><img src="https://i.imgur.com/MvzsVKy.png"></img></button>
+        <button type="button" class="btn btn-sm rate-btn btn-link" style="margin-left: 100px;"><img src="https://i.imgur.com/IPlQVpg.png"></img></button>
+      </div>
+    </div>
   </div>
 
-<form action="action_page.php">
-  <div class="container">
-    <label for="username"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="username" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="password" required>
 
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
 
 
    <!-- Sidebar header -->
-<!--           <div class="w3-sidebar w3-bar-block w3-card w3-animate-left sidebar-panel" style="display:block; width: 20%;" id="mySidebar">
-            <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Create Account </button>
-            <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Log in/out </button>
-            <button class="btn-sidebar-right w3-bar-item w3-button w3-large">Close &times;</button>
-          </div> -->
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left sidebar-panel" style="display:block; width: 20%;" id="mySidebar">
+  <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Create Account </button>
+  <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Log in/out </button>
+  <button class="btn-sidebar-right w3-bar-item w3-button w3-large">Close &times;</button>
+          
     <!-- End sidebar header -->
 
     <!-- sidebar body cards -> these need to be dynamically generated with Ruby-->
