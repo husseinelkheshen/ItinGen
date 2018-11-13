@@ -19,5 +19,5 @@ class Event
   field :sun_start, type: Integer
   field :sun_end, type: Integer
   field :tags, type: Array
-  field :price, type: String
+  field :price, type: Integer
 end
