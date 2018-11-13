@@ -1,7 +1,12 @@
+import time
 # testing file for ticketmaster api calls
 # activities that use the ticketmaster api:
 # - sports
 # - music
+# NOTE: this has been moved from the tests directory into this directory
+#       since the last iteration. The reason is because these checks need to
+#       run during the execution of the scipt and it was difficult to import
+#       the functions from an outside directory
 # NOTE: none of the events that we are getting from the ticketmaster api will
 #       be put into the permanent events table; everything is going into the
 #       one time event table
@@ -43,20 +48,35 @@ def venue_check(venue):
         valid (boolean) - True or False
     '''
     valid = True
-    if not venue.get("venue_id", 0) == int:
-        print("\tTYPE ERROR: venue_id should be int")
+    if not type(venue.get("venue_id", None)) == str:
+        print("\tTYPE ERROR: venue_id should be str")
         valid = False
-    if not venue.get("venue_name", 0) == str:
+    if not type(venue.get("venue_name", None)) == str:
         print("\tTYPE ERROR: venue_name should be str")
         valid = False
-    if not venue.get("latitude", 0) == float:
+    if not type(venue.get("latitude", None)) == float:
         print("\tTYPE ERROR: latitude should be float")
         valid = False
-    if not venue.get("longitude", 0) == float:
+    if not type(venue.get("longitude", None)) == float:
         print("\tTYPE ERROR: longitude should be float")
         valid = False
-    if not venue.get("address", 0) == str:
-        print("\tTYPE ERROR: address should be str")
+    if not type(venue.get("address1", None)) == str:
+        print("\tTYPE ERROR: address1 should be str")
+        valid = False
+    if not type(venue.get("address2", None)) == str:
+        print("\tTYPE ERROR: address2 should be str")
+        valid = False
+    if not type(venue.get("address3", None)) == str:
+        print("\tTYPE ERROR: address3 should be str")
+        valid = False
+    if not type(venue.get("city", None)) == str:
+        print("\tTYPE ERROR: city should be str")
+        valid = False
+    if not type(venue.get("state", None)) == str:
+        print("\tTYPE ERROR: state should be str")
+        valid = False
+    if not type(venue.get("zip_code", None)) == str:
+        print("\tTYPE ERROR: zip_code should be str")
         valid = False
 
     return valid
@@ -103,29 +123,28 @@ def event_check(event):
         valid (boolean) - True or False
     '''
     valid = True
-    if not event.get("event_id", 0) == int:
+    if not type(event.get("event_id", None)) == int:
         print("\tTYPE ERROR: event_id should be int")
         valid = False
-    if not event.get("event_name", 0) == str:
+    if not type(event.get("event_name", None)) == str:
         print("\tTYPE ERROR: event_name should be str")
         valid = False
-    if not event.get("venue_id", 0) == int:
+    if not type(event.get("venue_id", None)) == int:
         print("\tTYPE ERROR: venue_id should be int")
         valid = False
-    if not event.get("start", 0) == int:
+    if not type(event.get("start", None)) == int:
         print("\tTYPE ERROR: start should be int")
         valid = False
-    if not event.get("end", 0) == int:
+    if not type(event.get("end", None)) == int:
         print("\tTYPE ERROR: end should be int")
         valid = False
-    # still need to standardize our date formats across apis
-    # if not event.get("event_date", 0) == date:
-    #     print("\tTYPE ERROR: event_date should be date")
-    #     valid = False
-    if not event.get("tags", 0) == int:
+    if not type(event.get("date", None)) == str:
+        print("\tTYPE ERROR: date should be str")
+        valid = False
+    if not type(event.get("tags", None)) == str:
         print("\tTYPE ERROR: tags should be list")
         valid = False
-    if not event.get("price", 0) == float:
+    if not type(event.get("price", None)) == float:
         print("\tTYPE ERROR: price should be float")
         valid = False
 
@@ -156,3 +175,38 @@ def check_all_venue_id(events, venues):
             valid = False
 
     return valid
+
+
+# check the return value of the request
+def check_r_status(r):
+    '''
+    checks the status code of the request that we just made and the header
+    information
+
+    inputs:
+        r (request response) - response from the request
+    outputs:
+        0 - if everything is ok
+        -1 - if something is wrong
+    '''
+    if r.status_code == 200:
+        return 0 # everything is fine
+    else:
+        # display what is wrong
+        if r.status_code == 401:
+            print("ERROR: 401 - %s" % r.json()["fault"]["faultstring"])
+        elif r.status_code == 404:
+            print("ERROR: 404 - Not Found")
+        elif r.status_code == 400:
+            print("ERROR 400 - %s" % r.json()["errors"][0]["detail"])
+        elif r.status_code == 429:
+            print("ERROR 429 - %s" % r.sjon()["fault"]["faultstring"])
+            print("SOLUTION: pause to rate limit")
+            time.sleep(2)
+        else:
+            print("ERROR: error not known, printing full error")
+            print(r.status_code)
+            print(r.headers)
+            print(r.json())
+
+        return -1
