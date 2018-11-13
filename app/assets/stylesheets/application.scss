@@ -117,10 +117,11 @@ body {
 
 
 #container {
-  width: 100px;
-  height: 100px;
+  width: 80%;
+  height: 100%;
   position: relative;
   text-align: center;
+  
 }
 
 .map {
@@ -128,7 +129,7 @@ body {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 .rate-btn-container {
