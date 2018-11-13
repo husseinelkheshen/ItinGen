@@ -2,7 +2,12 @@ import time
 # testing file for ticketmaster api calls
 # activities that use the ticketmaster api:
 # - sports
-# - music
+# - music]
+# NEWER NOTES HAVE A LOWER LINE NUMBER
+# NEWEST
+# NOTE: these are all executed during the run time of the data collection
+#       process and there are no standalone tests to run for the process of
+#       collecting data (more effecient to check data while processing)
 # NOTE: this has been moved from the tests directory into this directory
 #       since the last iteration. The reason is because these checks need to
 #       run during the execution of the scipt and it was difficult to import
@@ -12,30 +17,41 @@ import time
 #       one time event table
 # NOTE: many more tests will be added as more code is written and unique
 #       cases may appear
+# OLDEST
 
 
 # check that single venue data is valid
 # structure of data to be put into venue database:
-# {
-#     "venues": [
+#
+# [
 #         {
 #             "venue_id": (int),
 #             "venue_name": (str),
 #             "latitude": (float),
 #             "longitude": (float),
-#             "address": (string)
+#             "address1": (string),
+#             "address2": (string),
+#             "address3": (string),
+#             "city": (string),
+#             "state": (string),
+#             "zip_code": (string)
 #         },
 #         {
 #             "venue_id": (int),
 #             "venue_name": (str),
 #             "latitude": (float),
 #             "longitude": (float),
-#             "address": (string)
+#             "address1": (string),
+#             "address2": (string),
+#             "address3": (string),
+#             "city": (string),
+#             "state": (string),
+#             "zip_code": (string)
 #         },
 #         ...
-#     ]
-# }
-def venue_check(venue):
+# ]
+#
+def tm_venue_check(venue):
     '''
     check an individual venue dict to make sure that all of the components are
     there and are the correct type before adding it into dictionary
@@ -84,32 +100,32 @@ def venue_check(venue):
 
 # check that single event data is valid
 # structure of data to be put into one time events database:
-# {
-#     "events": [
+#
+# [
 #         {
-#             "event_id": (int),
+#             "event_id": (str),
 #             "event_name": (str),
-#             "venue_id": (int),
+#             "venue_id": (str),
 #             "start": (int)(minutes),
 #             "end": (int)(minutes),
-#             "event_date": (date),
-#             "tags": (str)(list),
-#             "price": (int)
+#             "date": (str),
+#             "tags": (list),
+#             "price": (float)
 #         },
 #         {
-#             "event_id": (int),
+#             "event_id": (str),
 #             "event_name": (str),
-#             "venue_id": (int),
+#             "venue_id": (str),
 #             "start": (int)(minutes),
 #             "end": (int)(minutes),
-#             "event_date": (date),
+#             "date": (str),
 #             "tags": (list),
 #             "price": (float)
 #         },
 #         ...
-#     ]
-# }
-def event_check(event):
+# ]
+#
+def tm_event_check(event):
     '''
     check an individual event dict to make sure that all of the components are
     there and are the correct type
@@ -123,14 +139,14 @@ def event_check(event):
         valid (boolean) - True or False
     '''
     valid = True
-    if not type(event.get("event_id", None)) == int:
-        print("\tTYPE ERROR: event_id should be int")
+    if not type(event.get("event_id", None)) == str:
+        print("\tTYPE ERROR: event_id should be str")
         valid = False
     if not type(event.get("event_name", None)) == str:
         print("\tTYPE ERROR: event_name should be str")
         valid = False
-    if not type(event.get("venue_id", None)) == int:
-        print("\tTYPE ERROR: venue_id should be int")
+    if not type(event.get("venue_id", None)) == str:
+        print("\tTYPE ERROR: venue_id should be str")
         valid = False
     if not type(event.get("start", None)) == int:
         print("\tTYPE ERROR: start should be int")
@@ -141,7 +157,7 @@ def event_check(event):
     if not type(event.get("date", None)) == str:
         print("\tTYPE ERROR: date should be str")
         valid = False
-    if not type(event.get("tags", None)) == str:
+    if not type(event.get("tags", None)) == list:
         print("\tTYPE ERROR: tags should be list")
         valid = False
     if not type(event.get("price", None)) == float:
