@@ -50,7 +50,6 @@ validations, and implemented controller logic. Lastly, they tracked down
 bugs in the app and data aggregation scripts.
 
 ### Front-end
-
 Leslie and Tyler constructed the sidebar with information related to events/activities in a given itinerary and buttons allowing one to access more information about the event when fully implemented. Additionally, they implemented a menu with links to home, liked itineraries, log in window, and register window. Register link triggers a modal view of a the sign on form. Finally, they built and positioned like and dislike buttons on top of the map.
 
 Anthony implemented the Google map with drawn itineraries and paths and
