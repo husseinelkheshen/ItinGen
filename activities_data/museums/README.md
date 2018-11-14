@@ -4,8 +4,8 @@
 	Calls to the Yelp API can be made from the command line by typing “python get_yelpdata.py”. Additional optional parameters include:
 
 	- Location: specify with -l or --location. Default is Chicago, IL
-	- Category: specify with -c or —categories. Default is museums, though the way most data is 		collected is by using this flag to construct JSON files with events and venues from a variety of Yelp categories. Relevant categories for the Yelp API are specified below.
-	- Offset: specify with -o or —offset. Indicates which “page” of results you want returned 	from the API request, where each “page” includes 50 businesses. Default is 50, and the program automatically accesses subsequent pages for categories with more than 50 businesses.
+	- Category: specify with -c or —categories. Default is museums, though the way most data is collected is by using this flag to construct JSON files with events and venues from a variety of Yelp categories. Relevant categories for the Yelp API are specified below.
+	- Offset: specify with -o or —offset. Indicates which “page” of results you want returned from the API request, where each “page” includes 50 businesses. Default is 50, and the program automatically accesses subsequent pages for categories with more than 50 businesses.
 
 
 ## Files in this Folder
