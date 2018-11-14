@@ -38,7 +38,8 @@ file to make sure that the JSON data that the Data Aggregation Team
 extracted was populating the database. They also redeveloped the
 application to utilize PosgreSQL instead of MongoDB. Additionally,
 established the route and testing suite, wrote DB migrations, model
-validations, and implemented controller logic.
+validations, and implemented controller logic. Lastly, they tracked down
+bugs in the app and data aggregation tests.
 
 ### Front-end
 
