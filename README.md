@@ -32,11 +32,11 @@ displaying on the home page properly and as are intended.:w
 
 ## Suggested acceptance tests
 
-Opening and closing the hamburger menu, clicking the register link so that a modal window appears with a form for user information, and closing this window. 
+Opening and closing the hamburger menu, clicking the register link so that a modal window appears with a form for user information, and closing this window.
 
-For acceptance tests of the map, feel free to manipulate the map as you see fit (zoom in and out, travel to other parts of the world, etc.). 
+For acceptance tests of the map, feel free to manipulate the map as you see fit (zoom in and out, travel to other parts of the world, etc.).
 
-User disliking an itinerary triggers the generation of a new itinerary. The TA can test this functionality by clicking the dislike button (red thumb down). 
+User disliking an itinerary triggers the generation of a new itinerary. The TA can test this functionality by clicking the dislike button (red thumb down).
 
 
 ## Who Did What:
@@ -47,13 +47,15 @@ extracted was populating the database. They also redeveloped the
 application to utilize PosgreSQL instead of MongoDB. Additionally,
 established the route and testing suite, wrote DB migrations, model
 validations, and implemented controller logic. Lastly, they tracked down
-bugs in the app and data aggregation tests.
+bugs in the app and data aggregation scripts.
 
 ### Front-end
 
 Leslie and Tyler constructed the sidebar with information related to events/activities in a given itinerary and buttons allowing one to access more information about the event when fully implemented. Additionally, they implemented a menu with links to home, liked itineraries, log in window, and register window. Register link triggers a modal view of a the sign on form. Finally, they built and positioned like and dislike buttons on top of the map.
 
-Anthony implemented the Google map with drawn itineraries and paths 
+Anthony implemented the Google map with drawn itineraries and paths and
+injected Ruby code into the front-end to display itineraries in the
+sidebar.
 
 ## Changes:
 We decided to switch the application from using MongoDB to Postgresql.
