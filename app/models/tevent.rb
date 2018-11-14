@@ -1,0 +1,2 @@
+class Tevent < ApplicationRecord
+end

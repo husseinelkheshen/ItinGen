@@ -1,0 +1,2 @@
+class Pevent < ApplicationRecord
+end
