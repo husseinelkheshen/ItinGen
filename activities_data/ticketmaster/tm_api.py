@@ -41,6 +41,10 @@ CITY_LOCS = {
 # we need to append a unique code in front of each id to ensure that our ids
 # for each api are actually unique when we combine them all together
 TM_ID = "TMAPI"
+# keep track of venue ids so I can reference them later
+VENUE_IDS = set()
+# keep a backup of venue dicts in case we are missing one later on
+VENUE_BU = []
 
 
 # around 30 mile range seems reasonable
@@ -90,6 +94,7 @@ def get_tm_venues(city, range):
             for v in v_list:
                 if tm_venue_check(v):
                     venues.append(v)
+                    VENUE_IDS.add(v["venue_id"])
                 else:
                     print("ERROR: venue did not pass the venue check")
                     print("Printing here and dropping the venue:")
@@ -106,6 +111,7 @@ def get_tm_venues(city, range):
                 print("done running")
                 cont = False
 
+    print("done\n")
     return venues
 
 
@@ -224,6 +230,7 @@ def get_tm_events(type, city, range):
                 print("done running")
                 cont = False
 
+    print("done\n")
     return tm_events
 
 
@@ -246,6 +253,10 @@ def process_tm_events(data):
         tmp["event_name"] = e["name"]
         # may need to handle the potential for multiple venues
         tmp["venue_id"] = TM_ID + e["_embedded"]["venues"][0]["id"]
+        # keep this here for now, will remove later
+        tmp["venue_name"] = e["_embedded"]["venues"][0]["name"]
+        # add all the venue data to VENUE_BU as a backup
+        VENUE_BU.extend(process_tm_venues(e))
         # need to edit start time and convert to minutes from midnight
         start = e["dates"]["start"].get("localTime", -10)
         if start == -10:
@@ -287,14 +298,121 @@ def get_event_tags(e):
     return tags
 
 
+def strip_venue_name(events):
+    '''
+    strip the venue name key from the events dicts
+
+    inputs:
+        events (list) - list of dicts
+    outputs:
+        None
+    '''
+    for e in events:
+        del e["venue_name"]
+
+
 def tm_events_demo():
     '''
     '''
     events = get_tm_events("Sports", "Chicago", 30)
     if events == -1:
-        print("ERROR: get_tm_venues did not run successfully")
+        print("ERROR: get_tm_events did not run successfully")
         return -1
     with open("events_11132018.json", "w") as fp:
         json.dump(events, fp)
 
     return 0
+
+
+def remove_bad_events(events, dl):
+    '''
+    removes the bad events
+
+    inputs:
+        events (list) - a list of events
+        dl (list) - a list of events to remove
+
+    outputs:
+        None
+    '''
+    for index in sorted(dl, reverse=True):
+        del events[index]
+
+
+def run_tm_pipeline():
+    '''
+    runs the full ticketmaster API pipeline - pulls the venues data for chicago
+    and finds sports and music events in chicago
+
+    this function will not dump json file
+
+    inputs:
+        None
+    outputs:
+        venues (list) - array of dicts each of which is a venue
+        sports_events (list) - array of dicts each which is a sporting event
+        music_events (list) - array of dicts each of which is a music event
+    '''
+    radius = 30
+    # first find the venue data
+    venues = get_tm_venues("Chicago", radius)
+    # next find the sporting events
+    sports_events = get_tm_events("Sports", "Chicago", radius)
+    # next find the music events
+    music_events = get_tm_events("Music", "Chicago", radius)
+    # check if they ran successfully
+    success = True
+    if venues == -1:
+        print("ERROR: get_tm_venues did not run successfully")
+        success = False
+    if venues == -1:
+        print("ERROR: get_tm_venues did not run successfully")
+        success = False
+    if venues == -1:
+        print("ERROR: get_tm_venues did not run successfully")
+        success = False
+
+    # if they all succeeded we can run some final checks to make sure that
+    # everything is in order, otherwise still return what we have
+    if success:
+        print("Running final checks...")
+
+        # check sports
+        dls = check_all_venue_id(sports_events, venues, VENUE_IDS, VENUE_BU)
+        if (len(dls) == 0):
+            print("Sporting events are ok")
+        else:
+            print("Sporting events are not ok, need to investigate further...")
+            print("Also deleting %d bad events" % len(dls))
+            time.sleep(3) # give me time to look at results
+            remove_bad_events(sports_events, dls)
+            # double check again that everything is ok now
+            dl = check_all_venue_id(sports_events, venues, VENUE_IDS, VENUE_BU)
+            assert len(dl) == 0, "ERROR: not removing bad events"
+
+        # check music
+        dlm = check_all_venue_id(music_events, venues, VENUE_IDS, VENUE_BU)
+        if (len(dlm) == 0):
+            print("Music events are ok")
+        else:
+            print("Music events are not ok, need to investigate further...")
+            print("Also deleting %d bad events" % len(dlm))
+            time.sleep(3) # give me time to look at results
+            remove_bad_events(music_events, dlm)
+            # double check again that everything is ok now
+            dl = check_all_venue_id(music_events, venues, VENUE_IDS, VENUE_BU)
+            assert len(dl) == 0, "ERROR: not removing bad events"
+
+    else:
+        print("Not all scripts were run successfully")
+        print("Still returning results")
+
+    # finally need to strip venue name
+    strip_venue_name(sports_events)
+    strip_venue_name(music_events)
+
+    # summary
+    print("S: deleted %d events %d remain" % (len(dls), len(sports_events)))
+    print("M: deleted %d events %d remain" % (len(dlm), len(music_events)))
+
+    return venues, sports_events, music_events
