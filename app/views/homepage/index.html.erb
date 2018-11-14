@@ -20,11 +20,15 @@
   <% @locs.each_with_index do |loc, i| %>
     <div class="card" style="width: 100%;">
       <div class="card-header">
-        <%= ((i + 10).to_s 36).capitalize %>
+        <h3 class="card-title"><%= ((i + 10).to_s 36).capitalize %></h3>
       </div>
       <div class="card-body">
         <h5 class="card-title"><%= loc.venue_name %></h5>
         <p class="card-text"><%= loc.address1 %></p>
+        <p class="card-text"><%= loc.address2 %></p>
+        <p class="card-text"><%= loc.address3 %></p>
+        <p class="card-text"><%= loc.city %>, <%= loc.state %>. <%= loc.zip_code %></p>
+        <p class="card-text"><%= loc.state %></p>
         <!-- link below could also be part of dynamically generate-->
         <a href="https://www.uchicago.edu/" class="btn btn-primary">[See Venue]</a>
       </div>
