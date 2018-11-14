@@ -32,5 +32,17 @@ displaying on the home page properly and as are intended.:w
 
 
 ## Who Did What:
+### Back-end
+Omar and Anthony wrote the back-end together. They implemented a seeds
+file to make sure that the JSON data that the Data Aggregation Team
+extracted was populating the database. They also redeveloped the
+application to utilize PosgreSQL instead of MongoDB. Additionally,
+established the route and testing suite, wrote DB migrations, model
+validations, and implemented controller logic.
+
+### Front-end
 
 ## Changes:
+We decided to switch the application from using MongoDB to Postgresql.
+We were having issues with MongoDB working properly with the Rails
+application and so we switched it out for Postgres.
