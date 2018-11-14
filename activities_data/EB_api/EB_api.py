@@ -1,7 +1,7 @@
 import requests
 import json
 import datetime
-from EB_keys import *
+from EB_tokens import *
 from EB_tests import *
 
 class Utility:
@@ -23,9 +23,9 @@ class Utility:
 		d2 = datetime.datetime.strptime(date2, '%Y-%m-%d').date()
 		return (d2-d1).days
 
-	def check_null (attribute):
+	def check_null (attribute, value):
 		if attribute is None:
-			return ''
+			return value
 		else:
 			return attribute
 
@@ -109,16 +109,16 @@ class Venue(Query):
 	#creates json object for venue
 	def make_json(self):
 		address = self.all_data.get('address')
-		self.json['venue_id'] = 'EB_' + Utility.check_null(str(self.all_data.get('id')))
-		self.json['venue_name'] = Utility.check_null(self.all_data.get('name'))
-		self.json['latitude'] = float(address.get('latitude'))
-		self.json['longitude'] = float(address.get('longitude'))
-		self.json['address1'] = Utility.check_null(address.get('address_1'))
-		self.json['address2'] = Utility.check_null(address.get('address_2'))
+		self.json['venue_id'] = 'EB_' + Utility.check_null(str(self.all_data.get('id')), '')
+		self.json['venue_name'] = Utility.check_null(self.all_data.get('name'), '')
+		self.json['latitude'] = Utility.check_null(float(address.get('latitude')), float(999))
+		self.json['longitude'] = Utility.check_null(float(address.get('longitude')), float(999))
+		self.json['address1'] = Utility.check_null(address.get('address_1'), '')
+		self.json['address2'] = Utility.check_null(address.get('address_2'), '')
 		self.json['address3'] = ''
-		self.json['city'] = Utility.check_null(address.get('city'))
-		self.json['state'] = Utility.check_null(address.get('region'))
-		self.json['zip_code'] = Utility.check_null(address.get('postal_code'))
+		self.json['city'] = Utility.check_null(address.get('city'), '')
+		self.json['state'] = Utility.check_null(address.get('region'), '')
+		self.json['zip_code'] = Utility.check_null(address.get('postal_code'), '')
 		EB_tests.venue_valid(self.json)
 		return self.json
 
@@ -131,16 +131,16 @@ class Event:
 	#creates json object for event
 	def make_json(self):
 		self.json = {}
-		self.json['event_id'] = 'EB_' + Utility.check_null(str(self.event.get('id')))
-		self.json['event_name'] = Utility.check_null(self.event.get('name').get('text'))
-		self.json['venue_id'] = 'EB_' + Utility.check_null(str(self.event.get('venue_id')))
+		self.json['event_id'] = 'EB_' + Utility.check_null(str(self.event.get('id')), '')
+		self.json['event_name'] = Utility.check_null(self.event.get('name').get('text'), '')
+		self.json['venue_id'] = 'EB_' + Utility.check_null(str(self.event.get('venue_id')), '')
 		start = self.event.get('start').get('local')
 		end = self.event.get('end').get('local')
 		s_split = Utility.split_date_and_time(start)
 		e_split = Utility.split_date_and_time(end)
-		self.json['start'] = Utility.time_to_mins(s_split[1])
-		self.json['end'] = Utility.time_to_mins(e_split[1])+1440*Utility.compare_dates(s_split[0], e_split[0])
-		self.json['date'] = Utility.format_date(s_split[0])
+		self.json['start'] = Utility.check_null(Utility.time_to_mins(s_split[1]), -10)
+		self.json['end'] = Utility.check_null(Utility.time_to_mins(e_split[1])+1440*Utility.compare_dates(s_split[0], e_split[0]), -10)
+		self.json['date'] = Utility.check_null(Utility.format_date(s_split[0]), '')
 		self.json['tags'] = ''
 		self.json['price'] = self.price
 		EB_tests.event_valid(self.json)
@@ -150,7 +150,7 @@ class Event:
 class EB:
 	
 	#main function to create all json objects and write them to files
-	def query_EB_api(query):
+	def query_EB_api(self, query):
 		event_json = {}
 		venue_json = {}
 		search = Search(query)
@@ -172,12 +172,15 @@ class EB:
 		return[venue_json, event_json]
 
 	#gets all events from the current day
-	def query_EB_api_today():
-		return query_EB_api('events/search/?location.address=chicago&start_date.keyword=today&token=')
+	def query_EB_api_today(self):
+		return self.query_EB_api('events/search/?location.address=chicago&start_date.keyword=today&token=')
 
 	#gets all listed events
-	def query_EB_api_all():
-		return query_EB_api('events/search/?location.address=chicago&token=')
+	def query_EB_api_all(self):
+		return self.query_EB_api('events/search/?location.address=chicago&token=')
+
+EB_demo = EB()
+EB_demo.query_EB_api_today()
 
 
 
