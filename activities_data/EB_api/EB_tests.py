@@ -84,6 +84,25 @@ class Tests:
 				assert False, 'Invalid time from event ' + event.get('event_id')
 			else:
 				self.success_tests += 1
+	#check that all latitude and longitude values are in the acceptable range
+	def lat_long_valid(self, venues):
+		for venue in venues:
+			lat = venue.get('latitude')
+			long = venue.get('longitude')
+			id = venue.get('venue_id')
+			self.num_tests+=1
+			if (lat > 90.0 or lat < -90.0):
+				print('\tVENUE ERROR: venue %s has invalid latitude' % id)
+				assert False, 'Invalid latitude from venue ' + id
+			else:
+				self.success_tests += 1
+			self.num_tests+=1
+			if (long > 180.0 or long < -180.0):
+				print('\tVENUE ERROR: venue %s has invalid longitude' % id)
+				assert False, 'Invalid longitude from venue ' + id
+			else:
+				self.success_tests+=1
+
 
 
 	# check that all events have a valid venue id
@@ -100,7 +119,7 @@ class Tests:
 				self.success_tests += 1
 			self.num_tests+=1
 
-	#	print number of tests and successes
+	#print number of tests and successes
 	def display_test_results(self):
 		print('\tTESTS: %d tests run, %d tests passed' % (self.num_tests, self.success_tests))
 

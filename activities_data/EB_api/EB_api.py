@@ -34,11 +34,15 @@ class Utility:
 class Query:
 	def __init__(self, query):
 		self.URI = 'https://www.eventbriteapi.com/v3/'
-		search = requests.get(self.URI + query + Utility.get_token())
-		self.query = query
-		self.page = 0
-		self.json = {}
-		self.all_data = search.json()
+		self.invalid_query = True
+		while (self.invalid_query):
+			search = requests.get(self.URI + query + Utility.get_token())
+			if (search.status_code == 200):
+				self.invalid_query = False
+				self.query = query
+				self.page = 0
+				self.json = {}
+				self.all_data = search.json()
 	
 	#advances to the next page of results
 	def next_page(self):
@@ -142,33 +146,38 @@ class Event:
 		EB_tests.event_valid(self.json)
 		return self.json
 
-#main function to create all json objects and write them to files
-def query_EB_api(query):
-	event_json = {}
-	venue_json = {}
-	search = Search(query)
-	jsons = search.make_jsons()
-	event_json = jsons[0].get('events')
-	venue_json = jsons[1].get('venues')
-	while search.next_page():
+#class that houses all functions to be called by main database update function
+class EB:
+	
+	#main function to create all json objects and write them to files
+	def query_EB_api(query):
+		event_json = {}
+		venue_json = {}
+		search = Search(query)
 		jsons = search.make_jsons()
-		event_json = event_json + jsons[0].get('events')
-		venue_json = venue_json + jsons[1].get('venues')
-	EB_tests.time_valid(event_json)
-	EB_tests.venue_id_valid(event_json, venue_json)
-	EB_tests.display_test_results()
-	with open ('EB_events.json', 'w') as events_file:
-		json.dump(event_json, events_file, indent=2)
-	with open ('EB_venues.json', 'w') as venues_file:
-		json.dump(venue_json, venues_file, indent=2)
-	return[venue_json, event_json]
+		event_json = jsons[0].get('events')
+		venue_json = jsons[1].get('venues')
+		while search.next_page():
+			jsons = search.make_jsons()
+			event_json = event_json + jsons[0].get('events')
+			venue_json = venue_json + jsons[1].get('venues')
+		EB_tests.time_valid(event_json)
+		EB_tests.lat_long_valid(venue_json)
+		EB_tests.venue_id_valid(event_json, venue_json)
+		EB_tests.display_test_results()
+		with open ('EB_events.json', 'w') as events_file:
+			json.dump(event_json, events_file, indent=2)
+		with open ('EB_venues.json', 'w') as venues_file:
+			json.dump(venue_json, venues_file, indent=2)
+		return[venue_json, event_json]
 
-#gets all events from the current day
-def query_EB_api_today():
-	return query_EB_api('events/search/?location.address=chicago&start_date.keyword=today&token=')
+	#gets all events from the current day
+	def query_EB_api_today():
+		return query_EB_api('events/search/?location.address=chicago&start_date.keyword=today&token=')
 
-#gets all listed events
-def query_EB_api_all()
-	return query_EB_api('events/search/?location.address=chicago&token=')
+	#gets all listed events
+	def query_EB_api_all():
+		return query_EB_api('events/search/?location.address=chicago&token=')
+
 
 
