@@ -55,9 +55,9 @@ def master_data():
     eb_venue_of = VEN + "eb_venues_" + get_date() + ".json"
     eb_event_of = TMP + "eb_events_" + get_date() + ".json"
     with open(eb_venue_of, "w") as fp:
-        json.dump(eb_v, fp)
+        json.dump(eb_v, fp, indent=2)
     with open(eb_event_of, "w") as fp:
-        json.dump(eb_e, fp)
+        json.dump(eb_e, fp, indent=2)
 
 
     print("\n#####################")
@@ -70,11 +70,11 @@ def master_data():
     tm_s_event_of = TMP + "tm_sports_events_" + get_date() + ".json"
     tm_m_event_of = TMP + "tm_music_events" + get_date() + ".json"
     with open(tm_venue_of, "w") as fp:
-        json.dump(tm_v, fp)
+        json.dump(tm_v, fp, indent=2)
     with open(tm_s_event_of, "w") as fp:
-        json.dump(tm_s, fp)
+        json.dump(tm_s, fp, indent=2)
     with open(tm_m_event_of, "w") as fp:
-        json.dump(tm_m, fp)
+        json.dump(tm_m, fp, indent=2)
 
 
     print("\n#############")
@@ -87,3 +87,5 @@ def master_data():
     # category calls but for now we do not have enough API keys
     # this call should automatically place into correct folder
     os.system("python3 yelp/get_yelpdata.py")
+
+master_data()

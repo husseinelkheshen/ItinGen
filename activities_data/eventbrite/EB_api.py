@@ -34,11 +34,11 @@ class Utility:
 class Query:
 	def __init__(self, query):
 		self.URI = 'https://www.eventbriteapi.com/v3/'
-		self.invalid_query = True
-		while (self.invalid_query):
+		invalid_query = True
+		while (invalid_query):
 			search = requests.get(self.URI + query + Utility.get_token())
 			if (search.status_code == 200):
-				self.invalid_query = False
+				invalid_query = False
 				self.query = query
 				self.page = 0
 				self.json = {}
@@ -165,10 +165,6 @@ class EB:
 		EB_tests.lat_long_valid(venue_json)
 		EB_tests.venue_id_valid(event_json, venue_json)
 		EB_tests.display_test_results()
-		with open ('EB_events.json', 'w') as events_file:
-			json.dump(event_json, events_file, indent=2)
-		with open ('EB_venues.json', 'w') as venues_file:
-			json.dump(venue_json, venues_file, indent=2)
 		return[venue_json, event_json]
 
 	#gets all events from the current day

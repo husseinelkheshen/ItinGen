@@ -19,5 +19,5 @@ class Tokens:
 		return token
 
 EB_tokens = Tokens()
-EB_tokens.add_token('EXAMPLE_TOKEN1')
-EB_tokens.add_token('EXAMPLE_TOKEN2')
+EB_tokens.add_token('UB2SZHBVTC4XB2BXMFXF')
+EB_tokens.add_token('OLZDZGFXV6WEDARUWXK5')
