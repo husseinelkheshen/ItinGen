@@ -175,8 +175,6 @@ def validate_venue(venue):
 def validate_event(event):
     if (validate_event_length(event) and
         validate_yelpID_event(event) and
-        validate_open_hour(event) and
-        validate_close_hour(event) and
         validate_hours(event) and
         validate_event_name(event)):
         return True
