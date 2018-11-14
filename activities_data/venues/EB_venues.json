@@ -1,8 +1,7 @@
-{
-  "venues": [
+[
     {
       "venue_id": "EB_25045764",
-      "veune_name": "Chicago Literacy Alliance | Literacenter",
+      "venue_name": "Chicago Literacy Alliance | Literacenter",
       "latitude": 41.8853829,
       "longitude": -87.6444808,
       "address1": "641 W. Lake Street",
@@ -14,7 +13,7 @@
     },
     {
       "venue_id": "EB_26787125",
-      "veune_name": "MakeOffices at River North",
+      "venue_name": "MakeOffices at River North",
       "latitude": 41.8887576,
       "longitude": -87.63730029999999,
       "address1": "350 N Orleans St #9000n",
@@ -26,7 +25,7 @@
     },
     {
       "venue_id": "EB_26880143",
-      "veune_name": "adidas Originals Flagship Store",
+      "venue_name": "adidas Originals Flagship Store",
       "latitude": 41.9091988,
       "longitude": -87.67599059999998,
       "address1": "1532 North Milwaukee Avenue",
@@ -38,7 +37,7 @@
     },
     {
       "venue_id": "EB_27537495",
-      "veune_name": "500 N Wells St",
+      "venue_name": "500 N Wells St",
       "latitude": 41.8909639,
       "longitude": -87.63431249999996,
       "address1": "500 North Wells Street",
@@ -50,7 +49,7 @@
     },
     {
       "venue_id": "EB_21360617",
-      "veune_name": "Laugh Factory",
+      "venue_name": "Laugh Factory",
       "latitude": 41.9396832,
       "longitude": -87.6440877,
       "address1": "3175 North Broadway",
@@ -62,7 +61,7 @@
     },
     {
       "venue_id": "EB_21769915",
-      "veune_name": "Lincoln Park Zoo's Cafe Brauer",
+      "venue_name": "Lincoln Park Zoo's Cafe Brauer",
       "latitude": 41.9186894,
       "longitude": -87.63446799999997,
       "address1": "2021 N Stockton Dr",
@@ -74,7 +73,7 @@
     },
     {
       "venue_id": "EB_27546090",
-      "veune_name": "The Dawson",
+      "venue_name": "The Dawson",
       "latitude": 41.8913622,
       "longitude": -87.647201,
       "address1": "730 W. Grand Ave",
@@ -86,7 +85,7 @@
     },
     {
       "venue_id": "EB_22007965",
-      "veune_name": "Commons Club",
+      "venue_name": "Commons Club",
       "latitude": 41.886089,
       "longitude": -87.62603899999999,
       "address1": "203 North Wabash Avenue",
@@ -98,7 +97,7 @@
     },
     {
       "venue_id": "EB_27504221",
-      "veune_name": "9 W Washington Street Level 4",
+      "venue_name": "9 W Washington Street Level 4",
       "latitude": 41.8905693,
       "longitude": -87.62684709999996,
       "address1": "(Rent24)",
@@ -110,7 +109,7 @@
     },
     {
       "venue_id": "EB_27633636",
-      "veune_name": "Woven + Bound (Marriott Lobby)",
+      "venue_name": "Woven + Bound (Marriott Lobby)",
       "latitude": 41.8536533,
       "longitude": -87.61971779999999,
       "address1": "2121 S Prairie Ave",
@@ -122,7 +121,7 @@
     },
     {
       "venue_id": "EB_20881999",
-      "veune_name": "The Promontory",
+      "venue_name": "The Promontory",
       "latitude": 41.7991,
       "longitude": -87.5876,
       "address1": "5311 South Lake Park Avenue West",
@@ -134,7 +133,7 @@
     },
     {
       "venue_id": "EB_27642679",
-      "veune_name": "La Salle Language Academy",
+      "venue_name": "La Salle Language Academy",
       "latitude": 41.9138035,
       "longitude": -87.63783999999998,
       "address1": "1734 North Orleans Street",
@@ -146,7 +145,7 @@
     },
     {
       "venue_id": "EB_22884953",
-      "veune_name": "The Godfrey Hotel Chicago",
+      "venue_name": "The Godfrey Hotel Chicago",
       "latitude": 41.894585,
       "longitude": -87.63196199999999,
       "address1": "127 West Huron Street",
@@ -158,7 +157,7 @@
     },
     {
       "venue_id": "EB_27335966",
-      "veune_name": "mHUB",
+      "venue_name": "mHUB",
       "latitude": 41.8960417,
       "longitude": -87.65132890000001,
       "address1": "965 West Chicago Avenue",
@@ -170,7 +169,7 @@
     },
     {
       "venue_id": "EB_27521200",
-      "veune_name": "Municipal Bar + Dining Co.",
+      "venue_name": "Municipal Bar + Dining Co.",
       "latitude": 41.89251,
       "longitude": -87.63494600000001,
       "address1": "216 West Ohio Street",
@@ -182,7 +181,7 @@
     },
     {
       "venue_id": "EB_27318801",
-      "veune_name": "Milliken Showroom",
+      "venue_name": "Milliken Showroom",
       "latitude": 41.8884096,
       "longitude": -87.6354498,
       "address1": "222 Merchandise Mart Plaza, #1149",
@@ -194,7 +193,7 @@
     },
     {
       "venue_id": "EB_27833648",
-      "veune_name": "Ina Mae Tavern & Packaged Goods",
+      "venue_name": "Ina Mae Tavern & Packaged Goods",
       "latitude": 41.907664,
       "longitude": -87.67219469999998,
       "address1": "1415 North Wood Street",
@@ -206,7 +205,7 @@
     },
     {
       "venue_id": "EB_23141129",
-      "veune_name": "The Wellness Path",
+      "venue_name": "The Wellness Path",
       "latitude": 41.8147756,
       "longitude": -87.8741824,
       "address1": "320 West Burlington Avenue",
@@ -218,7 +217,7 @@
     },
     {
       "venue_id": "EB_9499898",
-      "veune_name": "Braintree office",
+      "venue_name": "Braintree office",
       "latitude": 41.8883695,
       "longitude": -87.63536449999998,
       "address1": "222 W. Merchandise Mart Plaza",
@@ -230,7 +229,7 @@
     },
     {
       "venue_id": "EB_25667661",
-      "veune_name": "2265 N Clybourn Ave",
+      "venue_name": "2265 N Clybourn Ave",
       "latitude": 41.9231674,
       "longitude": -87.66604849999999,
       "address1": "2265 North Clybourn Avenue",
@@ -242,7 +241,7 @@
     },
     {
       "venue_id": "EB_27582910",
-      "veune_name": "Cooperativa Ceramica Imola North America",
+      "venue_name": "Cooperativa Ceramica Imola North America",
       "latitude": 41.8806338,
       "longitude": -87.62492379999998,
       "address1": "104 S Michigan Ave.,",
@@ -254,7 +253,7 @@
     },
     {
       "venue_id": "EB_24472311",
-      "veune_name": "Laugh Factory",
+      "venue_name": "Laugh Factory",
       "latitude": 41.93973400000001,
       "longitude": -87.64403319999997,
       "address1": "3175 North Broadway",
@@ -266,7 +265,7 @@
     },
     {
       "venue_id": "EB_26394000",
-      "veune_name": "The Dalcy",
+      "venue_name": "The Dalcy",
       "latitude": 41.8868435,
       "longitude": -87.64873180000001,
       "address1": "302 N. Green St.",
@@ -278,7 +277,7 @@
     },
     {
       "venue_id": "EB_21015749",
-      "veune_name": "Space",
+      "venue_name": "Space",
       "latitude": 42.04087659999999,
       "longitude": -87.68009649999999,
       "address1": "1245 Chicago Avenue",
@@ -290,7 +289,7 @@
     },
     {
       "venue_id": "EB_15870538",
-      "veune_name": "Maggiano's Little Italy",
+      "venue_name": "Maggiano's Little Italy",
       "latitude": 41.8498496,
       "longitude": -87.95128920000002,
       "address1": "240 Oakbrook Center",
@@ -302,7 +301,7 @@
     },
     {
       "venue_id": "EB_26231707",
-      "veune_name": "Polsky Exchange North",
+      "venue_name": "Polsky Exchange North",
       "latitude": 41.799726,
       "longitude": -87.58968600000003,
       "address1": "1452 E 53rd St",
@@ -314,7 +313,7 @@
     },
     {
       "venue_id": "EB_27767802",
-      "veune_name": "Bronzeville Community Clubhouse",
+      "venue_name": "Bronzeville Community Clubhouse",
       "latitude": 41.8242103,
       "longitude": -87.61900430000003,
       "address1": "3847 S Giles Ave",
@@ -326,7 +325,7 @@
     },
     {
       "venue_id": "EB_27687644",
-      "veune_name": "Ravenswood Elementary School",
+      "venue_name": "Ravenswood Elementary School",
       "latitude": 41.9611161,
       "longitude": -87.67144359999998,
       "address1": "4332 N Paulina St ",
@@ -338,7 +337,7 @@
     },
     {
       "venue_id": "EB_26555253",
-      "veune_name": "Ovie Bar & Grill",
+      "venue_name": "Ovie Bar & Grill",
       "latitude": 41.88402799999999,
       "longitude": -87.639974,
       "address1": "120 North Canal Street",
@@ -350,7 +349,7 @@
     },
     {
       "venue_id": "EB_27608580",
-      "veune_name": "CTA Headquarters",
+      "venue_name": "CTA Headquarters",
       "latitude": 41.8855496,
       "longitude": -87.64237249999996,
       "address1": "567 West Lake Street",
@@ -362,7 +361,7 @@
     },
     {
       "venue_id": "EB_22699956",
-      "veune_name": "Meal of the Day Cafe",
+      "venue_name": "Meal of the Day Cafe",
       "latitude": 41.8721722,
       "longitude": -87.83262539999998,
       "address1": "1701 South 1st Avenue",
@@ -374,7 +373,7 @@
     },
     {
       "venue_id": "EB_27855326",
-      "veune_name": "WeWork Fulton Market",
+      "venue_name": "WeWork Fulton Market",
       "latitude": 41.8862823,
       "longitude": -87.64894119999997,
       "address1": "220 N Green St",
@@ -386,7 +385,7 @@
     },
     {
       "venue_id": "EB_27411644",
-      "veune_name": "John Marshall Law School",
+      "venue_name": "John Marshall Law School",
       "latitude": 41.8777724,
       "longitude": -87.62844940000002,
       "address1": "315 South Plymouth Court",
@@ -398,7 +397,7 @@
     },
     {
       "venue_id": "EB_27631120",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.88235239999999,
       "longitude": -87.62743019999999,
       "address1": "1 N State St",
@@ -410,7 +409,7 @@
     },
     {
       "venue_id": "EB_27565489",
-      "veune_name": "TGS Commons (Inside Seabury Hall)",
+      "venue_name": "TGS Commons (Inside Seabury Hall)",
       "latitude": 42.0570352,
       "longitude": -87.67820549999999,
       "address1": "600 Haven Street",
@@ -422,7 +421,7 @@
     },
     {
       "venue_id": "EB_21444258",
-      "veune_name": "Bughouse Theater",
+      "venue_name": "Bughouse Theater",
       "latitude": 41.9543218,
       "longitude": -87.67697129999999,
       "address1": "1910 West Irving Park Road",
@@ -434,7 +433,7 @@
     },
     {
       "venue_id": "EB_20882078",
-      "veune_name": "The Empty Bottle",
+      "venue_name": "The Empty Bottle",
       "latitude": 41.9005,
       "longitude": -87.6866,
       "address1": "1035 North Western Avenue",
@@ -446,7 +445,7 @@
     },
     {
       "venue_id": "EB_27791481",
-      "veune_name": "Washington High School",
+      "venue_name": "Washington High School",
       "latitude": 41.68769399999999,
       "longitude": -87.53796549999998,
       "address1": "3535 East 114th Street",
@@ -458,7 +457,7 @@
     },
     {
       "venue_id": "EB_27458135",
-      "veune_name": "Ida Noyes Hall",
+      "venue_name": "Ida Noyes Hall",
       "latitude": 41.7880686,
       "longitude": -87.59562119999998,
       "address1": "1212 East 59th Street",
@@ -470,7 +469,7 @@
     },
     {
       "venue_id": "EB_27160916",
-      "veune_name": "Hinshaw & Culbertson LLP",
+      "venue_name": "Hinshaw & Culbertson LLP",
       "latitude": 41.8845877,
       "longitude": -87.63521249999997,
       "address1": "151 North Franklin Street",
@@ -482,7 +481,7 @@
     },
     {
       "venue_id": "EB_27825055",
-      "veune_name": "Oak Lawn Hilton hotel",
+      "venue_name": "Oak Lawn Hilton hotel",
       "latitude": 41.7225033,
       "longitude": -87.7391533,
       "address1": "9333 S. Cicero ave",
@@ -494,7 +493,7 @@
     },
     {
       "venue_id": "EB_27340069",
-      "veune_name": "Morgan Park High School",
+      "venue_name": "Morgan Park High School",
       "latitude": 41.6922179,
       "longitude": -87.66532769999998,
       "address1": "1744 West Pryor Avenue",
@@ -506,7 +505,7 @@
     },
     {
       "venue_id": "EB_27148961",
-      "veune_name": "Pinstripes",
+      "venue_name": "Pinstripes",
       "latitude": 41.8908879,
       "longitude": -87.61621780000002,
       "address1": "435 East Illinois Street",
@@ -518,7 +517,7 @@
     },
     {
       "venue_id": "EB_27682452",
-      "veune_name": "Segal Visitors Center",
+      "venue_name": "Segal Visitors Center",
       "latitude": 42.05045789999999,
       "longitude": -87.67326939999998,
       "address1": "1841 Sheridan Road",
@@ -530,7 +529,7 @@
     },
     {
       "venue_id": "EB_27563258",
-      "veune_name": "Instituto Cervantes",
+      "venue_name": "Instituto Cervantes",
       "latitude": 41.8923312,
       "longitude": -87.6291698,
       "address1": "31 West Ohio Street",
@@ -542,7 +541,7 @@
     },
     {
       "venue_id": "EB_25656461",
-      "veune_name": "On Tour Brewing Company",
+      "venue_name": "On Tour Brewing Company",
       "latitude": 41.88962,
       "longitude": -87.67052960000001,
       "address1": "1725 West Hubbard Street",
@@ -554,7 +553,7 @@
     },
     {
       "venue_id": "EB_27303139",
-      "veune_name": "Poetry Foundation",
+      "venue_name": "Poetry Foundation",
       "latitude": 41.8953609,
       "longitude": -87.63043779999998,
       "address1": "61 W. Superior Street",
@@ -566,7 +565,7 @@
     },
     {
       "venue_id": "EB_25045764",
-      "veune_name": "Chicago Literacy Alliance | Literacenter",
+      "venue_name": "Chicago Literacy Alliance | Literacenter",
       "latitude": 41.8853829,
       "longitude": -87.6444808,
       "address1": "641 W. Lake Street",
@@ -578,7 +577,7 @@
     },
     {
       "venue_id": "EB_26787125",
-      "veune_name": "MakeOffices at River North",
+      "venue_name": "MakeOffices at River North",
       "latitude": 41.8887576,
       "longitude": -87.63730029999999,
       "address1": "350 N Orleans St #9000n",
@@ -590,7 +589,7 @@
     },
     {
       "venue_id": "EB_26880143",
-      "veune_name": "adidas Originals Flagship Store",
+      "venue_name": "adidas Originals Flagship Store",
       "latitude": 41.9091988,
       "longitude": -87.67599059999998,
       "address1": "1532 North Milwaukee Avenue",
@@ -602,7 +601,7 @@
     },
     {
       "venue_id": "EB_27537495",
-      "veune_name": "500 N Wells St",
+      "venue_name": "500 N Wells St",
       "latitude": 41.8909639,
       "longitude": -87.63431249999996,
       "address1": "500 North Wells Street",
@@ -614,7 +613,7 @@
     },
     {
       "venue_id": "EB_21360617",
-      "veune_name": "Laugh Factory",
+      "venue_name": "Laugh Factory",
       "latitude": 41.9396832,
       "longitude": -87.6440877,
       "address1": "3175 North Broadway",
@@ -626,7 +625,7 @@
     },
     {
       "venue_id": "EB_21769915",
-      "veune_name": "Lincoln Park Zoo's Cafe Brauer",
+      "venue_name": "Lincoln Park Zoo's Cafe Brauer",
       "latitude": 41.9186894,
       "longitude": -87.63446799999997,
       "address1": "2021 N Stockton Dr",
@@ -638,7 +637,7 @@
     },
     {
       "venue_id": "EB_27546090",
-      "veune_name": "The Dawson",
+      "venue_name": "The Dawson",
       "latitude": 41.8913622,
       "longitude": -87.647201,
       "address1": "730 W. Grand Ave",
@@ -650,7 +649,7 @@
     },
     {
       "venue_id": "EB_22007965",
-      "veune_name": "Commons Club",
+      "venue_name": "Commons Club",
       "latitude": 41.886089,
       "longitude": -87.62603899999999,
       "address1": "203 North Wabash Avenue",
@@ -662,7 +661,7 @@
     },
     {
       "venue_id": "EB_27504221",
-      "veune_name": "9 W Washington Street Level 4",
+      "venue_name": "9 W Washington Street Level 4",
       "latitude": 41.8905693,
       "longitude": -87.62684709999996,
       "address1": "(Rent24)",
@@ -674,7 +673,7 @@
     },
     {
       "venue_id": "EB_27633636",
-      "veune_name": "Woven + Bound (Marriott Lobby)",
+      "venue_name": "Woven + Bound (Marriott Lobby)",
       "latitude": 41.8536533,
       "longitude": -87.61971779999999,
       "address1": "2121 S Prairie Ave",
@@ -686,7 +685,7 @@
     },
     {
       "venue_id": "EB_20881999",
-      "veune_name": "The Promontory",
+      "venue_name": "The Promontory",
       "latitude": 41.7991,
       "longitude": -87.5876,
       "address1": "5311 South Lake Park Avenue West",
@@ -698,7 +697,7 @@
     },
     {
       "venue_id": "EB_27642679",
-      "veune_name": "La Salle Language Academy",
+      "venue_name": "La Salle Language Academy",
       "latitude": 41.9138035,
       "longitude": -87.63783999999998,
       "address1": "1734 North Orleans Street",
@@ -710,7 +709,7 @@
     },
     {
       "venue_id": "EB_22884953",
-      "veune_name": "The Godfrey Hotel Chicago",
+      "venue_name": "The Godfrey Hotel Chicago",
       "latitude": 41.894585,
       "longitude": -87.63196199999999,
       "address1": "127 West Huron Street",
@@ -722,7 +721,7 @@
     },
     {
       "venue_id": "EB_27335966",
-      "veune_name": "mHUB",
+      "venue_name": "mHUB",
       "latitude": 41.8960417,
       "longitude": -87.65132890000001,
       "address1": "965 West Chicago Avenue",
@@ -734,7 +733,7 @@
     },
     {
       "venue_id": "EB_27521200",
-      "veune_name": "Municipal Bar + Dining Co.",
+      "venue_name": "Municipal Bar + Dining Co.",
       "latitude": 41.89251,
       "longitude": -87.63494600000001,
       "address1": "216 West Ohio Street",
@@ -746,7 +745,7 @@
     },
     {
       "venue_id": "EB_27318801",
-      "veune_name": "Milliken Showroom",
+      "venue_name": "Milliken Showroom",
       "latitude": 41.8884096,
       "longitude": -87.6354498,
       "address1": "222 Merchandise Mart Plaza, #1149",
@@ -758,7 +757,7 @@
     },
     {
       "venue_id": "EB_27833648",
-      "veune_name": "Ina Mae Tavern & Packaged Goods",
+      "venue_name": "Ina Mae Tavern & Packaged Goods",
       "latitude": 41.907664,
       "longitude": -87.67219469999998,
       "address1": "1415 North Wood Street",
@@ -770,7 +769,7 @@
     },
     {
       "venue_id": "EB_23141129",
-      "veune_name": "The Wellness Path",
+      "venue_name": "The Wellness Path",
       "latitude": 41.8147756,
       "longitude": -87.8741824,
       "address1": "320 West Burlington Avenue",
@@ -782,7 +781,7 @@
     },
     {
       "venue_id": "EB_9499898",
-      "veune_name": "Braintree office",
+      "venue_name": "Braintree office",
       "latitude": 41.8883695,
       "longitude": -87.63536449999998,
       "address1": "222 W. Merchandise Mart Plaza",
@@ -794,7 +793,7 @@
     },
     {
       "venue_id": "EB_25667661",
-      "veune_name": "2265 N Clybourn Ave",
+      "venue_name": "2265 N Clybourn Ave",
       "latitude": 41.9231674,
       "longitude": -87.66604849999999,
       "address1": "2265 North Clybourn Avenue",
@@ -806,7 +805,7 @@
     },
     {
       "venue_id": "EB_27582910",
-      "veune_name": "Cooperativa Ceramica Imola North America",
+      "venue_name": "Cooperativa Ceramica Imola North America",
       "latitude": 41.8806338,
       "longitude": -87.62492379999998,
       "address1": "104 S Michigan Ave.,",
@@ -818,7 +817,7 @@
     },
     {
       "venue_id": "EB_24472311",
-      "veune_name": "Laugh Factory",
+      "venue_name": "Laugh Factory",
       "latitude": 41.93973400000001,
       "longitude": -87.64403319999997,
       "address1": "3175 North Broadway",
@@ -830,7 +829,7 @@
     },
     {
       "venue_id": "EB_26394000",
-      "veune_name": "The Dalcy",
+      "venue_name": "The Dalcy",
       "latitude": 41.8868435,
       "longitude": -87.64873180000001,
       "address1": "302 N. Green St.",
@@ -842,7 +841,7 @@
     },
     {
       "venue_id": "EB_21015749",
-      "veune_name": "Space",
+      "venue_name": "Space",
       "latitude": 42.04087659999999,
       "longitude": -87.68009649999999,
       "address1": "1245 Chicago Avenue",
@@ -854,7 +853,7 @@
     },
     {
       "venue_id": "EB_15870538",
-      "veune_name": "Maggiano's Little Italy",
+      "venue_name": "Maggiano's Little Italy",
       "latitude": 41.8498496,
       "longitude": -87.95128920000002,
       "address1": "240 Oakbrook Center",
@@ -866,7 +865,7 @@
     },
     {
       "venue_id": "EB_26231707",
-      "veune_name": "Polsky Exchange North",
+      "venue_name": "Polsky Exchange North",
       "latitude": 41.799726,
       "longitude": -87.58968600000003,
       "address1": "1452 E 53rd St",
@@ -878,7 +877,7 @@
     },
     {
       "venue_id": "EB_27767802",
-      "veune_name": "Bronzeville Community Clubhouse",
+      "venue_name": "Bronzeville Community Clubhouse",
       "latitude": 41.8242103,
       "longitude": -87.61900430000003,
       "address1": "3847 S Giles Ave",
@@ -890,7 +889,7 @@
     },
     {
       "venue_id": "EB_27687644",
-      "veune_name": "Ravenswood Elementary School",
+      "venue_name": "Ravenswood Elementary School",
       "latitude": 41.9611161,
       "longitude": -87.67144359999998,
       "address1": "4332 N Paulina St ",
@@ -902,7 +901,7 @@
     },
     {
       "venue_id": "EB_26555253",
-      "veune_name": "Ovie Bar & Grill",
+      "venue_name": "Ovie Bar & Grill",
       "latitude": 41.88402799999999,
       "longitude": -87.639974,
       "address1": "120 North Canal Street",
@@ -914,7 +913,7 @@
     },
     {
       "venue_id": "EB_27608580",
-      "veune_name": "CTA Headquarters",
+      "venue_name": "CTA Headquarters",
       "latitude": 41.8855496,
       "longitude": -87.64237249999996,
       "address1": "567 West Lake Street",
@@ -926,7 +925,7 @@
     },
     {
       "venue_id": "EB_22699956",
-      "veune_name": "Meal of the Day Cafe",
+      "venue_name": "Meal of the Day Cafe",
       "latitude": 41.8721722,
       "longitude": -87.83262539999998,
       "address1": "1701 South 1st Avenue",
@@ -938,7 +937,7 @@
     },
     {
       "venue_id": "EB_27855326",
-      "veune_name": "WeWork Fulton Market",
+      "venue_name": "WeWork Fulton Market",
       "latitude": 41.8862823,
       "longitude": -87.64894119999997,
       "address1": "220 N Green St",
@@ -950,7 +949,7 @@
     },
     {
       "venue_id": "EB_27411644",
-      "veune_name": "John Marshall Law School",
+      "venue_name": "John Marshall Law School",
       "latitude": 41.8777724,
       "longitude": -87.62844940000002,
       "address1": "315 South Plymouth Court",
@@ -962,7 +961,7 @@
     },
     {
       "venue_id": "EB_27631120",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.88235239999999,
       "longitude": -87.62743019999999,
       "address1": "1 N State St",
@@ -974,7 +973,7 @@
     },
     {
       "venue_id": "EB_27565489",
-      "veune_name": "TGS Commons (Inside Seabury Hall)",
+      "venue_name": "TGS Commons (Inside Seabury Hall)",
       "latitude": 42.0570352,
       "longitude": -87.67820549999999,
       "address1": "600 Haven Street",
@@ -986,7 +985,7 @@
     },
     {
       "venue_id": "EB_21444258",
-      "veune_name": "Bughouse Theater",
+      "venue_name": "Bughouse Theater",
       "latitude": 41.9543218,
       "longitude": -87.67697129999999,
       "address1": "1910 West Irving Park Road",
@@ -998,7 +997,7 @@
     },
     {
       "venue_id": "EB_20882078",
-      "veune_name": "The Empty Bottle",
+      "venue_name": "The Empty Bottle",
       "latitude": 41.9005,
       "longitude": -87.6866,
       "address1": "1035 North Western Avenue",
@@ -1010,7 +1009,7 @@
     },
     {
       "venue_id": "EB_27791481",
-      "veune_name": "Washington High School",
+      "venue_name": "Washington High School",
       "latitude": 41.68769399999999,
       "longitude": -87.53796549999998,
       "address1": "3535 East 114th Street",
@@ -1022,7 +1021,7 @@
     },
     {
       "venue_id": "EB_27458135",
-      "veune_name": "Ida Noyes Hall",
+      "venue_name": "Ida Noyes Hall",
       "latitude": 41.7880686,
       "longitude": -87.59562119999998,
       "address1": "1212 East 59th Street",
@@ -1034,7 +1033,7 @@
     },
     {
       "venue_id": "EB_27160916",
-      "veune_name": "Hinshaw & Culbertson LLP",
+      "venue_name": "Hinshaw & Culbertson LLP",
       "latitude": 41.8845877,
       "longitude": -87.63521249999997,
       "address1": "151 North Franklin Street",
@@ -1046,7 +1045,7 @@
     },
     {
       "venue_id": "EB_27825055",
-      "veune_name": "Oak Lawn Hilton hotel",
+      "venue_name": "Oak Lawn Hilton hotel",
       "latitude": 41.7225033,
       "longitude": -87.7391533,
       "address1": "9333 S. Cicero ave",
@@ -1058,7 +1057,7 @@
     },
     {
       "venue_id": "EB_27340069",
-      "veune_name": "Morgan Park High School",
+      "venue_name": "Morgan Park High School",
       "latitude": 41.6922179,
       "longitude": -87.66532769999998,
       "address1": "1744 West Pryor Avenue",
@@ -1070,7 +1069,7 @@
     },
     {
       "venue_id": "EB_27148961",
-      "veune_name": "Pinstripes",
+      "venue_name": "Pinstripes",
       "latitude": 41.8908879,
       "longitude": -87.61621780000002,
       "address1": "435 East Illinois Street",
@@ -1082,7 +1081,7 @@
     },
     {
       "venue_id": "EB_27682452",
-      "veune_name": "Segal Visitors Center",
+      "venue_name": "Segal Visitors Center",
       "latitude": 42.05045789999999,
       "longitude": -87.67326939999998,
       "address1": "1841 Sheridan Road",
@@ -1094,7 +1093,7 @@
     },
     {
       "venue_id": "EB_27563258",
-      "veune_name": "Instituto Cervantes",
+      "venue_name": "Instituto Cervantes",
       "latitude": 41.8923312,
       "longitude": -87.6291698,
       "address1": "31 West Ohio Street",
@@ -1106,7 +1105,7 @@
     },
     {
       "venue_id": "EB_25656461",
-      "veune_name": "On Tour Brewing Company",
+      "venue_name": "On Tour Brewing Company",
       "latitude": 41.88962,
       "longitude": -87.67052960000001,
       "address1": "1725 West Hubbard Street",
@@ -1118,7 +1117,7 @@
     },
     {
       "venue_id": "EB_27303139",
-      "veune_name": "Poetry Foundation",
+      "venue_name": "Poetry Foundation",
       "latitude": 41.8953609,
       "longitude": -87.63043779999998,
       "address1": "61 W. Superior Street",
@@ -1130,7 +1129,7 @@
     },
     {
       "venue_id": "EB_25828446",
-      "veune_name": "InterContinental Chicago Magnificent Mile",
+      "venue_name": "InterContinental Chicago Magnificent Mile",
       "latitude": 41.8911959,
       "longitude": -87.62365669999997,
       "address1": "505 N Michigan ave",
@@ -1142,7 +1141,7 @@
     },
     {
       "venue_id": "EB_26836275",
-      "veune_name": "Fairmont Chicago Millennium Park",
+      "venue_name": "Fairmont Chicago Millennium Park",
       "latitude": 41.8861745,
       "longitude": -87.62102900000002,
       "address1": "200 W Columbus Drive",
@@ -1154,7 +1153,7 @@
     },
     {
       "venue_id": "EB_25977827",
-      "veune_name": "Idea Realization Lab",
+      "venue_name": "Idea Realization Lab",
       "latitude": 41.8785696,
       "longitude": -87.62743519999998,
       "address1": "247 S State St",
@@ -1166,7 +1165,7 @@
     },
     {
       "venue_id": "EB_25522723",
-      "veune_name": "Exact Location Provided upon registration",
+      "venue_name": "Exact Location Provided upon registration",
       "latitude": 41.9681042,
       "longitude": -87.74012640000001,
       "address1": "Lawrence & Elston",
@@ -1178,7 +1177,7 @@
     },
     {
       "venue_id": "EB_26891832",
-      "veune_name": "Your Computer",
+      "venue_name": "Your Computer",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -1190,7 +1189,7 @@
     },
     {
       "venue_id": "EB_27671405",
-      "veune_name": "7415 S East End Ave",
+      "venue_name": "7415 S East End Ave",
       "latitude": 41.76005900000001,
       "longitude": -87.58295799999996,
       "address1": "7415 South East End Avenue",
@@ -1202,7 +1201,7 @@
     },
     {
       "venue_id": "EB_25090838",
-      "veune_name": "Master's Learning Center (MLC)",
+      "venue_name": "Master's Learning Center (MLC)",
       "latitude": 41.8631527,
       "longitude": -87.8140095,
       "address1": "7600 West Roosevelt Road ",
@@ -1214,7 +1213,7 @@
     },
     {
       "venue_id": "EB_27543324",
-      "veune_name": "",
+      "venue_name": "",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -1226,7 +1225,7 @@
     },
     {
       "venue_id": "EB_27808553",
-      "veune_name": "National Runaway Safeline",
+      "venue_name": "National Runaway Safeline",
       "latitude": 41.938911,
       "longitude": -87.66714530000002,
       "address1": "3141B N. Lincoln Ave.",
@@ -1238,7 +1237,7 @@
     },
     {
       "venue_id": "EB_24602377",
-      "veune_name": "online",
+      "venue_name": "online",
       "latitude": 41.879211,
       "longitude": -87.62484999999998,
       "address1": "200 S Michigan Ave",
@@ -1250,7 +1249,7 @@
     },
     {
       "venue_id": "EB_21555960",
-      "veune_name": "Your Happy Place Liquors",
+      "venue_name": "Your Happy Place Liquors",
       "latitude": 41.9267758,
       "longitude": -87.70363129999998,
       "address1": "2501A North Milwaukee Avenue",
@@ -1262,7 +1261,7 @@
     },
     {
       "venue_id": "EB_27906740",
-      "veune_name": "1154 W Lunt",
+      "venue_name": "1154 W Lunt",
       "latitude": 42.0002887,
       "longitude": -87.6611838,
       "address1": "Suite 4",
@@ -1274,7 +1273,7 @@
     },
     {
       "venue_id": "EB_27683163",
-      "veune_name": "Celar Chiropractic",
+      "venue_name": "Celar Chiropractic",
       "latitude": 41.86245590000001,
       "longitude": -87.89248169999996,
       "address1": "4413 West Roosevelt Road",
@@ -1286,7 +1285,7 @@
     },
     {
       "venue_id": "EB_27780054",
-      "veune_name": "Online Event",
+      "venue_name": "Online Event",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -1298,7 +1297,7 @@
     },
     {
       "venue_id": "EB_27520113",
-      "veune_name": "Brewpoint Coffee - Workshop & Roastery",
+      "venue_name": "Brewpoint Coffee - Workshop & Roastery",
       "latitude": 41.91708209999999,
       "longitude": -87.93922020000002,
       "address1": "617 North York Street",
@@ -1310,7 +1309,7 @@
     },
     {
       "venue_id": "EB_27808682",
-      "veune_name": "ArePA George",
+      "venue_name": "ArePA George",
       "latitude": 41.9098615,
       "longitude": -87.70746859999997,
       "address1": "1552 N Kedzie",
@@ -1322,7 +1321,7 @@
     },
     {
       "venue_id": "EB_22075988",
-      "veune_name": "National Runaway Safeline",
+      "venue_name": "National Runaway Safeline",
       "latitude": 41.938911,
       "longitude": -87.66714530000002,
       "address1": "3141 B N. Lincoln",
@@ -1334,7 +1333,7 @@
     },
     {
       "venue_id": "EB_19952498",
-      "veune_name": "W Chicago - City Center",
+      "venue_name": "W Chicago - City Center",
       "latitude": 41.879683,
       "longitude": -87.63322499999998,
       "address1": "172 West Adams Street",
@@ -1346,7 +1345,7 @@
     },
     {
       "venue_id": "EB_27050097",
-      "veune_name": "Conference Call Only 470-200-0080 Code:630450",
+      "venue_name": "Conference Call Only 470-200-0080 Code:630450",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -1358,7 +1357,7 @@
     },
     {
       "venue_id": "EB_27848995",
-      "veune_name": "2112 Chicago",
+      "venue_name": "2112 Chicago",
       "latitude": 41.9583542,
       "longitude": -87.74412710000001,
       "address1": "4245 N Knox Ave",
@@ -1370,7 +1369,7 @@
     },
     {
       "venue_id": "EB_23721442",
-      "veune_name": "CHICAGO NORTH SIDE",
+      "venue_name": "CHICAGO NORTH SIDE",
       "latitude": 41.900306,
       "longitude": -87.63344510000002,
       "address1": "",
@@ -1382,7 +1381,7 @@
     },
     {
       "venue_id": "EB_27893130",
-      "veune_name": "Sprigs & Sprouts Test Kitchen, Lincoln Park",
+      "venue_name": "Sprigs & Sprouts Test Kitchen, Lincoln Park",
       "latitude": 41.9217622,
       "longitude": -87.6648586,
       "address1": "2200 North Clybourn Avenue",
@@ -1394,7 +1393,7 @@
     },
     {
       "venue_id": "EB_15149288",
-      "veune_name": "Kizuki Ramen and Izakaya Wicker Park",
+      "venue_name": "Kizuki Ramen and Izakaya Wicker Park",
       "latitude": 41.9086519,
       "longitude": -87.67529789999998,
       "address1": "1482 North Milwaukee Avenue",
@@ -1406,7 +1405,7 @@
     },
     {
       "venue_id": "EB_27438672",
-      "veune_name": "Home of Kate Gjaja",
+      "venue_name": "Home of Kate Gjaja",
       "latitude": 42.0760791,
       "longitude": -87.6905079,
       "address1": "325 Central Avenue",
@@ -1418,7 +1417,7 @@
     },
     {
       "venue_id": "EB_27458298",
-      "veune_name": "Nico Osteria",
+      "venue_name": "Nico Osteria",
       "latitude": 41.9013622,
       "longitude": -87.62769409999999,
       "address1": "1015 North Rush Street",
@@ -1430,7 +1429,7 @@
     },
     {
       "venue_id": "EB_27324309",
-      "veune_name": "6511 N Sheridan Rd",
+      "venue_name": "6511 N Sheridan Rd",
       "latitude": 42.0005669,
       "longitude": -87.65989159999998,
       "address1": "",
@@ -1442,7 +1441,7 @@
     },
     {
       "venue_id": "EB_27748803",
-      "veune_name": "The Hyatt Lodge At McDonalds Campus",
+      "venue_name": "The Hyatt Lodge At McDonalds Campus",
       "latitude": 41.8364391,
       "longitude": -87.94703600000003,
       "address1": "2815 Jorie Boulevard",
@@ -1454,7 +1453,7 @@
     },
     {
       "venue_id": "EB_23305564",
-      "veune_name": "Fullstack Academy",
+      "venue_name": "Fullstack Academy",
       "latitude": 41.8952661,
       "longitude": -87.6390351,
       "address1": "405 West Superior Street",
@@ -1466,7 +1465,7 @@
     },
     {
       "venue_id": "EB_22319405",
-      "veune_name": "Central Synagogue 122 S. Michigan Avenue Suite 1449",
+      "venue_name": "Central Synagogue 122 S. Michigan Avenue Suite 1449",
       "latitude": 41.8809155,
       "longitude": -87.62542510000003,
       "address1": "",
@@ -1478,7 +1477,7 @@
     },
     {
       "venue_id": "EB_27906371",
-      "veune_name": "Lawndale Christian Health Center: The Fireside Loft",
+      "venue_name": "Lawndale Christian Health Center: The Fireside Loft",
       "latitude": 41.8525757,
       "longitude": -87.72141899999997,
       "address1": "3824 W. Ogden Ave.",
@@ -1490,7 +1489,7 @@
     },
     {
       "venue_id": "EB_27773157",
-      "veune_name": "Murphy's Lounge",
+      "venue_name": "Murphy's Lounge",
       "latitude": 41.7559324,
       "longitude": -87.6056016,
       "address1": "7628 South Cottage Grove Avenue",
@@ -1502,7 +1501,7 @@
     },
     {
       "venue_id": "EB_27726798",
-      "veune_name": "1750 North Clark Street",
+      "venue_name": "1750 North Clark Street",
       "latitude": 41.9203468,
       "longitude": -87.64331390000001,
       "address1": "",
@@ -1514,7 +1513,7 @@
     },
     {
       "venue_id": "EB_27733967",
-      "veune_name": "Huntington Bank",
+      "venue_name": "Huntington Bank",
       "latitude": 41.80835859999999,
       "longitude": -87.6680255,
       "address1": "1715 West 47th Street",
@@ -1526,7 +1525,7 @@
     },
     {
       "venue_id": "EB_25980819",
-      "veune_name": "Tribe",
+      "venue_name": "Tribe",
       "latitude": 41.93934900000001,
       "longitude": -87.67447600000003,
       "address1": "1819-21 West Belmont Avenue",
@@ -1538,7 +1537,7 @@
     },
     {
       "venue_id": "EB_21683696",
-      "veune_name": "GT Fish & Oyster and GT Prime",
+      "venue_name": "GT Fish & Oyster and GT Prime",
       "latitude": 41.8929153,
       "longitude": -87.63591250000002,
       "address1": "",
@@ -1550,7 +1549,7 @@
     },
     {
       "venue_id": "EB_23039008",
-      "veune_name": "Jolly Pumpkin Pizzeria & Brewery",
+      "venue_name": "Jolly Pumpkin Pizzeria & Brewery",
       "latitude": 41.8004419,
       "longitude": -87.58876900000001,
       "address1": "5215 South Harper Avenue",
@@ -1562,7 +1561,7 @@
     },
     {
       "venue_id": "EB_27680321",
-      "veune_name": "Sheraton Grand Chicago",
+      "venue_name": "Sheraton Grand Chicago",
       "latitude": 41.8890722,
       "longitude": -87.61982890000002,
       "address1": "301 East North Water Street",
@@ -1574,7 +1573,7 @@
     },
     {
       "venue_id": "EB_11611939",
-      "veune_name": "Fosco Park",
+      "venue_name": "Fosco Park",
       "latitude": 41.864505,
       "longitude": -87.65718800000002,
       "address1": "1312 South Racine Avenue",
@@ -1586,7 +1585,7 @@
     },
     {
       "venue_id": "EB_27134170",
-      "veune_name": "The Alliance Fran\u00e7aise de Chicago",
+      "venue_name": "The Alliance Fran\u00e7aise de Chicago",
       "latitude": 41.897108,
       "longitude": -87.63023199999998,
       "address1": "54 W Chicago Avenue",
@@ -1598,7 +1597,7 @@
     },
     {
       "venue_id": "EB_21806319",
-      "veune_name": "Ipsento Coffee",
+      "venue_name": "Ipsento Coffee",
       "latitude": 41.9186516,
       "longitude": -87.68711439999998,
       "address1": "2035 N. Western Avenue ",
@@ -1610,7 +1609,7 @@
     },
     {
       "venue_id": "EB_27782024",
-      "veune_name": "",
+      "venue_name": "",
       "latitude": 41.8703314,
       "longitude": -87.62357420000001,
       "address1": "",
@@ -1622,7 +1621,7 @@
     },
     {
       "venue_id": "EB_27745016",
-      "veune_name": "United Center",
+      "venue_name": "United Center",
       "latitude": 41.8806908,
       "longitude": -87.67417590000002,
       "address1": "1901 West Madison Street",
@@ -1634,7 +1633,7 @@
     },
     {
       "venue_id": "EB_27503801",
-      "veune_name": "Reunion Chicago",
+      "venue_name": "Reunion Chicago",
       "latitude": 41.909968,
       "longitude": -87.69187799999997,
       "address1": "2557 West North Avenue",
@@ -1646,7 +1645,7 @@
     },
     {
       "venue_id": "EB_27289214",
-      "veune_name": "1871",
+      "venue_name": "1871",
       "latitude": 41.88838500000001,
       "longitude": -87.6362656,
       "address1": "222 West Merchandise Mart Plaza",
@@ -1658,7 +1657,7 @@
     },
     {
       "venue_id": "EB_27297575",
-      "veune_name": "The Comedy Bar ",
+      "venue_name": "The Comedy Bar ",
       "latitude": 41.8908018,
       "longitude": -87.63268690000001,
       "address1": "500 N LaSalle St",
@@ -1670,7 +1669,7 @@
     },
     {
       "venue_id": "EB_7288397",
-      "veune_name": "Prenatal Fit",
+      "venue_name": "Prenatal Fit",
       "latitude": 41.932045,
       "longitude": -87.67649699999998,
       "address1": "1937 W. Diversy",
@@ -1682,7 +1681,7 @@
     },
     {
       "venue_id": "EB_27551877",
-      "veune_name": "Kresge Centennial Hall",
+      "venue_name": "Kresge Centennial Hall",
       "latitude": 42.051573,
       "longitude": -87.67491110000003,
       "address1": "1880 Campus Drive Room 1515",
@@ -1694,7 +1693,7 @@
     },
     {
       "venue_id": "EB_25787045",
-      "veune_name": "Zoom",
+      "venue_name": "Zoom",
       "latitude": 41.8939,
       "longitude": -87.6329,
       "address1": "Online",
@@ -1706,7 +1705,7 @@
     },
     {
       "venue_id": "EB_27360584",
-      "veune_name": "Woven + Bound Bar",
+      "venue_name": "Woven + Bound Bar",
       "latitude": 41.85356839999999,
       "longitude": -87.61980899999998,
       "address1": "2121 South Prairie Avenue",
@@ -1718,7 +1717,7 @@
     },
     {
       "venue_id": "EB_27865456",
-      "veune_name": "IL Office",
+      "venue_name": "IL Office",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "Address will be giving after registration ",
@@ -1730,7 +1729,7 @@
     },
     {
       "venue_id": "EB_27385468",
-      "veune_name": "Cantat Adult Life Services",
+      "venue_name": "Cantat Adult Life Services",
       "latitude": 41.8372221,
       "longitude": -87.83727770000002,
       "address1": "2940 McCormick Avenue",
@@ -1742,7 +1741,7 @@
     },
     {
       "venue_id": "EB_26598714",
-      "veune_name": "Full Address upon registration",
+      "venue_name": "Full Address upon registration",
       "latitude": 41.9644741,
       "longitude": -87.7376496,
       "address1": "",
@@ -1754,7 +1753,7 @@
     },
     {
       "venue_id": "EB_27904266",
-      "veune_name": "Rowe-Clark Math & Science Academy",
+      "venue_name": "Rowe-Clark Math & Science Academy",
       "latitude": 41.89518569999999,
       "longitude": -87.71813209999999,
       "address1": "3645 West Chicago Avenue",
@@ -1766,7 +1765,7 @@
     },
     {
       "venue_id": "EB_25522723",
-      "veune_name": "Exact Location Provided upon registration",
+      "venue_name": "Exact Location Provided upon registration",
       "latitude": 41.9681042,
       "longitude": -87.74012640000001,
       "address1": "Lawrence & Elston",
@@ -1778,7 +1777,7 @@
     },
     {
       "venue_id": "EB_25639608",
-      "veune_name": "Rush Oak Park Hospital",
+      "venue_name": "Rush Oak Park Hospital",
       "latitude": 41.8784911,
       "longitude": -87.80330779999997,
       "address1": "520 S Maple Avenue,Conference Room 1C",
@@ -1790,7 +1789,7 @@
     },
     {
       "venue_id": "EB_25842698",
-      "veune_name": "",
+      "venue_name": "",
       "latitude": 41.8829298,
       "longitude": -87.63003079999999,
       "address1": "Exact location will be provided after registration",
@@ -1802,7 +1801,7 @@
     },
     {
       "venue_id": "EB_25555406",
-      "veune_name": "2747 W Cermak Rd",
+      "venue_name": "2747 W Cermak Rd",
       "latitude": 41.85168619999999,
       "longitude": -87.69487449999997,
       "address1": "2747 West Cermak Road",
@@ -1814,7 +1813,7 @@
     },
     {
       "venue_id": "EB_26611203",
-      "veune_name": "Spring Pilates, Yoga & Fitness",
+      "venue_name": "Spring Pilates, Yoga & Fitness",
       "latitude": 41.9533622,
       "longitude": -87.67835939999998,
       "address1": "3940 North Lincoln Avenue",
@@ -1826,7 +1825,7 @@
     },
     {
       "venue_id": "EB_27071061",
-      "veune_name": "Lakeview Healing Oasis",
+      "venue_name": "Lakeview Healing Oasis",
       "latitude": 41.9330083,
       "longitude": -87.6474614,
       "address1": "722 W. Diversey",
@@ -1838,7 +1837,7 @@
     },
     {
       "venue_id": "EB_27695176",
-      "veune_name": "5725 W Belmont Ave",
+      "venue_name": "5725 W Belmont Ave",
       "latitude": 41.9384202,
       "longitude": -87.76987609999998,
       "address1": "5725 West Belmont Avenue",
@@ -1850,7 +1849,7 @@
     },
     {
       "venue_id": "EB_27482305",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.8703314,
       "longitude": -87.62357420000001,
       "address1": "",
@@ -1862,7 +1861,7 @@
     },
     {
       "venue_id": "EB_27513863",
-      "veune_name": "Ace Hotel Chicago",
+      "venue_name": "Ace Hotel Chicago",
       "latitude": 41.8875823,
       "longitude": -87.65199769999998,
       "address1": "311 North Morgan Street",
@@ -1874,7 +1873,7 @@
     },
     {
       "venue_id": "EB_27552579",
-      "veune_name": "EvolveHer",
+      "venue_name": "EvolveHer",
       "latitude": 41.8933488,
       "longitude": -87.63814839999998,
       "address1": "358 W. Ontario St. #3W",
@@ -1886,7 +1885,7 @@
     },
     {
       "venue_id": "EB_25966993",
-      "veune_name": "",
+      "venue_name": "",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "Address Will Be Provided After Registration",
@@ -1898,7 +1897,7 @@
     },
     {
       "venue_id": "EB_26166479",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -1910,7 +1909,7 @@
     },
     {
       "venue_id": "EB_25524838",
-      "veune_name": "Exact location will be provided after registration",
+      "venue_name": "Exact location will be provided after registration",
       "latitude": 41.9720786,
       "longitude": -87.75172950000001,
       "address1": "",
@@ -1922,7 +1921,7 @@
     },
     {
       "venue_id": "EB_25547988",
-      "veune_name": "Lounge at Elbo Room",
+      "venue_name": "Lounge at Elbo Room",
       "latitude": 41.9342015,
       "longitude": -87.6607525,
       "address1": "2871 N Lincoln Ave",
@@ -1934,7 +1933,7 @@
     },
     {
       "venue_id": "EB_26699574",
-      "veune_name": "39 W 47th St",
+      "venue_name": "39 W 47th St",
       "latitude": 41.8087925,
       "longitude": -87.62820970000001,
       "address1": "39 West 47th Street",
@@ -1946,7 +1945,7 @@
     },
     {
       "venue_id": "EB_27893130",
-      "veune_name": "Sprigs & Sprouts Test Kitchen, Lincoln Park",
+      "venue_name": "Sprigs & Sprouts Test Kitchen, Lincoln Park",
       "latitude": 41.9217622,
       "longitude": -87.6648586,
       "address1": "2200 North Clybourn Avenue",
@@ -1958,7 +1957,7 @@
     },
     {
       "venue_id": "EB_22459177",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.8803304,
       "longitude": -87.62567919999998,
       "address1": "Regus \u2013 Illinois, Chicago \u2013 55 E. Monroe  Address: 55 E Monroe St Suite 3800, Chicago, IL 60603, USA",
@@ -1970,7 +1969,7 @@
     },
     {
       "venue_id": "EB_27883247",
-      "veune_name": "222 W Ontario St",
+      "venue_name": "222 W Ontario St",
       "latitude": 41.89341599999999,
       "longitude": -87.63509599999998,
       "address1": "222 West Ontario Street",
@@ -1982,7 +1981,7 @@
     },
     {
       "venue_id": "EB_26330843",
-      "veune_name": "The Chakra Shoppe",
+      "venue_name": "The Chakra Shoppe",
       "latitude": 41.9726386,
       "longitude": -87.6913677,
       "address1": "5034 N. Lincoln Ave.",
@@ -1994,7 +1993,7 @@
     },
     {
       "venue_id": "EB_27729173",
-      "veune_name": "Hidden Shamrock",
+      "venue_name": "Hidden Shamrock",
       "latitude": 41.9322788,
       "longitude": -87.6488673,
       "address1": "2723 North Halsted Street",
@@ -2006,7 +2005,7 @@
     },
     {
       "venue_id": "EB_27166863",
-      "veune_name": "Address Will Be Provided After Registration",
+      "venue_name": "Address Will Be Provided After Registration",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -2018,7 +2017,7 @@
     },
     {
       "venue_id": "EB_27892469",
-      "veune_name": "Janell Zip&Fit",
+      "venue_name": "Janell Zip&Fit",
       "latitude": 41.897845,
       "longitude": -87.66764899999998,
       "address1": "862 North Ashland Avenue",
@@ -2030,7 +2029,7 @@
     },
     {
       "venue_id": "EB_27322554",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.8781136,
       "longitude": -87.62979819999998,
       "address1": "",
@@ -2042,7 +2041,7 @@
     },
     {
       "venue_id": "EB_27299516",
-      "veune_name": "Chicago",
+      "venue_name": "Chicago",
       "latitude": 41.9094138,
       "longitude": -87.6524483,
       "address1": "1543 n kingsbury ",
@@ -2054,7 +2053,7 @@
     },
     {
       "venue_id": "EB_27870625",
-      "veune_name": "Tuco And Blondie",
+      "venue_name": "Tuco And Blondie",
       "latitude": 41.943307,
       "longitude": -87.66407099999998,
       "address1": "3358 North Southport Avenue",
@@ -2066,7 +2065,7 @@
     },
     {
       "venue_id": "EB_27656876",
-      "veune_name": "TPAN",
+      "venue_name": "TPAN",
       "latitude": 41.9828056,
       "longitude": -87.65981649999998,
       "address1": "5537 North Broadway",
@@ -2078,7 +2077,7 @@
     },
     {
       "venue_id": "EB_27749784",
-      "veune_name": "Aravt Nomads Office",
+      "venue_name": "Aravt Nomads Office",
       "latitude": 42.02383870000001,
       "longitude": -87.87588010000002,
       "address1": "1645 South River Road",
@@ -2088,5 +2087,4 @@
       "state": "IL",
       "zip_code": "60018"
     }
-  ]
-}
+]
