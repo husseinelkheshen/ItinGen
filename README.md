@@ -1,5 +1,6 @@
-# ItinGen
+# README
 
+<<<<<<< HEAD
 ItinGen is a web based application that allows users to randomly
 generate optimized itineraries for their schedules to explore a new city
 or rediscover a city they have been living in for years
@@ -67,3 +68,27 @@ application and so we switched it out for Postgres.
 No longer using Vue.js frontend framework. Instead only working with pure javascript, html, and CSS. This decision allowed for quicker development time as the Vue.js presented a learning curve for all members of our team
 
 We switched from collecting data by type of event to collecting data by API to reduce data overlap and the number of API calls needed. This also allowed each member of the data aggregation team to focus on a single API.
+=======
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+>>>>>>> parent of 373ee4f... updated README.md
