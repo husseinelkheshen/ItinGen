@@ -54,9 +54,14 @@ Leslie and Tyler constructed the sidebar with information related to events/acti
 
 Anthony implemented the Google map with drawn itineraries and paths 
 
+### Data Aggregation
+Max wrote the Ticketmaster API data collection, Clare and Masha wrote the Yelp API data collection and Eli wrote the Eventbrite API data collection. Each team member wrote validation tests for their API. The main database pipeline was written primarily by Max with assistance from the other members of the Data Aggregation Team. The collected data was all stored as JSON files for use by the Back-end team.
+
 ## Changes:
 We decided to switch the application from using MongoDB to Postgresql.
 We were having issues with MongoDB working properly with the Rails
 application and so we switched it out for Postgres.
 
 No longer using Vue.js frontend framework. Instead only working with pure javascript, html, and CSS. This decision allowed for quicker development time as the Vue.js presented a learning curve for all members of our team
+
+We switched from collecting data by type of event to collecting data by API to reduce data overlap and the number of API calls needed. This also allowed each member of the data aggregation team to focus on a single API.
