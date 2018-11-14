@@ -30,6 +30,14 @@ rspec
 These tests will test to make sure that all of the front-end objects are
 displaying on the home page properly and as are intended.:w
 
+## Suggested acceptance tests
+
+Opening and closing the hamburger menu, clicking the register link so that a modal window appears with a form for user information, and closing this window. 
+
+For acceptance tests of the map, feel free to manipulate the map as you see fit (zoom in and out, travel to other parts of the world, etc.). 
+
+User disliking an itinerary triggers the generation of a new itinerary. The TA can test this functionality by clicking the dislike button (red thumb down). 
+
 
 ## Who Did What:
 ### Back-end
@@ -43,7 +51,13 @@ bugs in the app and data aggregation tests.
 
 ### Front-end
 
+Leslie and Tyler constructed the sidebar with information related to events/activities in a given itinerary and buttons allowing one to access more information about the event when fully implemented. Additionally, they implemented a menu with links to home, liked itineraries, log in window, and register window. Register link triggers a modal view of a the sign on form. Finally, they built and positioned like and dislike buttons on top of the map.
+
+Anthony implemented the Google map with drawn itineraries and paths 
+
 ## Changes:
 We decided to switch the application from using MongoDB to Postgresql.
 We were having issues with MongoDB working properly with the Rails
 application and so we switched it out for Postgres.
+
+No longer using Vue.js frontend framework. Instead only working with pure javascript, html, and CSS. This decision allowed for quicker development time as the Vue.js presented a learning curve for all members of our team
