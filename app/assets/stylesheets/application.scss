@@ -172,9 +172,29 @@ body {
   background-repeat: no-repeat;
 }
 
+form {
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width  : 740px;
+  height : 300px;
+  margin : 0 auto;
+  border: 10px;
 
+  background: #FFF url(background.jpg);
+}
 
+input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 0;
 
+  -webkit-appearance: none;
+}
+
+input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
 
 
 

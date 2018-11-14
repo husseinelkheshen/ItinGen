@@ -1,11 +1,33 @@
     <!-- Topbar Header -->
     <div id="header" class=" w3-blue topnav" style="margin-left:auto;">
-      <button class="w3-bar-item w3-button" id="myModal" >Create Account</button>
       <button class="w3-bar-item w3-button">Login / Logout</button>
+
     </div>
 
-    
+            <div class="w3-container">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Create Account</button>
+          <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+              <div class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Please Enter your Email Address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Please Enter a Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
     <!-- End Topbar Header -->
+
 
 
 
@@ -22,8 +44,20 @@
 
 <!-- Sidebar header -->
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left sidebar-panel" style="display:block; width: 20%;" id="mySidebar">
-  <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Liked Itineraries </button>
-  <button class="btn-sidebar-left w3-bar-item w3-button w3-large ">Current Itineraries </button>
+  <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+        <button class="btn-outline-info">Home </button>
+    <button class="btn-outline-info"">Liked Itinerary</button>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+  
   <!-- <button class="btn-sidebar-right w3-bar-item w3-button w3-large">Close &times;</button> -->
 
   <!-- End sidebar header -->
@@ -38,7 +72,7 @@
         <h5 class="card-title">[Venue Name]</h5>
         <p class="card-text">[Venue Location]</p>
         <!-- link below could also be part of dynamically generate-->
-        <a href="https://www.uchicago.edu/" class="btn btn-primary">[See Venue]</a>
+        <a href="https://www.uchicago.edu/" class="btn btn-outline-info">[See Venue]</a>
       </div>
     </div>
   <% end %>
