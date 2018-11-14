@@ -27,3 +27,5 @@ To run tests for the application, simply run:
 ```bash
 rspec
 ```
+These tests will test to make sure that everything is showing on the
+homepage as they are supposed to.
