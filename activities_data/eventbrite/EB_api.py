@@ -7,14 +7,14 @@ from EB_tests import *
 class Utility:
 	def get_token():
 		return EB_tokens.next_token()
-	
+
 	def split_date_and_time(dt):
 		return dt.split('T')
-	
+
 	def time_to_mins(time):
 		split = time.split(':')
 		return 60*int(split[0]) + int(split[1])
-	
+
 	def format_date(date):
 		return date[5:] + '-' + date[:4]
 
@@ -43,7 +43,7 @@ class Query:
 				self.page = 0
 				self.json = {}
 				self.all_data = search.json()
-	
+
 	#advances to the next page of results
 	def next_page(self):
 		self.page += 1
@@ -66,7 +66,7 @@ class Search(Query):
 			self.venue_set.add(e.get('venue_id'))
 			self.events_json['events'].append(self.event_json(e))
 		return self.events_json
-	
+
 	#creates json object for single event
 	def event_json(self, event):
 			event_id = event.get('id')
@@ -76,7 +76,7 @@ class Search(Query):
 				price = ticket.get_price()
 			e = Event(event, price)
 			return e.make_json()
-				
+
 	#creates json object for all venues in search
 	def get_venues(self):
 		self.venues_json = {}
@@ -103,7 +103,7 @@ class Ticket(Query):
 		if (min_price == float('inf')):
 			min_price = float(-10)
 		return min_price
-						  
+
 #class for creating json object for single venue
 class Venue(Query):
 	#creates json object for venue
@@ -122,7 +122,7 @@ class Venue(Query):
 		EB_tests.venue_valid(self.json)
 		return self.json
 
-						
+
 #class for creating json object for single event
 class Event:
 	def __init__(self, event, price):
@@ -148,7 +148,7 @@ class Event:
 
 #class that houses all functions to be called by main database update function
 class EB:
-	
+
 	#main function to create all json objects and write them to files
 	def query_EB_api(self, query):
 		event_json = {}
@@ -178,9 +178,3 @@ class EB:
 	#gets all listed events
 	def query_EB_api_all(self):
 		return self.query_EB_api('events/search/?location.address=chicago&token=')
-
-EB_demo = EB()
-EB_demo.query_EB_api_today()
-
-
-
