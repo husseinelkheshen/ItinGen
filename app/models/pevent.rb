@@ -1,4 +1,4 @@
-class :Pevent < ApplicationRecord
+class Pevent < ApplicationRecord
     validate :venue_id, presence: true
     validate :event_name, presence: true
     validate :event_alias, presence: true
