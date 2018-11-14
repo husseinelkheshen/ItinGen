@@ -21,7 +21,8 @@ rails s
 ```
 
 ## Running Unit Tests
-Unit Tests for the Data Aggregation scripts will be found in the `activities_data` directory
+Unit Tests for the Data Aggregation scripts will be found in the `activities_data` directory.
+
 To run tests for the application, simply run:
 ```bash
 rspec
