@@ -1,10 +1,10 @@
 class Tevent < ApplicationRecord
-	validate :venue_id, presence: true
-	validate :event_name, presence: true
-	validate :event_id, presence: true
-	validate :start, presence: true
-	validate :end, presence: true
-	validate :date, presence: true
-	validate :tags, array: true, presence: true
-	validate :price, presence: true
+	validates :venue_id, presence: true
+	validates :event_name, presence: true
+	validates :event_id, presence: true
+	validates :start, presence: true
+	validates :end, presence: true
+	validates :date, presence: true
+	validates :tags, presence: true
+	validates :price, presence: true
 end
