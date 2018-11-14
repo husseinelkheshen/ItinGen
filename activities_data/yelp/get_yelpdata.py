@@ -6,6 +6,7 @@ import pprint
 import requests
 import sys
 import urllib
+import datetime
 
 from validation import *
 
@@ -21,6 +22,21 @@ except ImportError:
     from urllib2 import HTTPError
     from urllib import quote
     from urllib import urlencode
+
+# just a simple date function
+def get_date():
+    '''
+    get the current date
+    ex. for November 13, 2018 the output will be 20181113
+
+    inputs:
+        None
+    outputs:
+        date (str) - current date
+    '''
+    date = datetime.datetime.now().strftime("%Y%m%d")
+
+    return date
 
 # Uses private keys to authenticate requests (API Key)
 # You can find it on https://www.yelp.com/developers/v3/manage_app
@@ -48,8 +64,10 @@ parser.add_argument('-o', '--offset', dest='offset',
                      help='Result page offset (default: %(default)s)')
 input_values = parser.parse_args()
 
-venuefname = input_values.categories + 'venues.json'
-eventfname = input_values.categories + 'events.json'
+VEN = "venues/"
+EVN = "events/"
+venuefname = VEN + input_values.categories + '_venues_' + get_date() + '.json'
+eventfname = EVN + input_values.categories + '_events_' + get_date() + '.json'
 
 venuelist = []
 eventlist = []
@@ -57,7 +75,7 @@ eventlist = []
 
 
 
-# "component" query functions 
+# "component" query functions
 
 # Given API key, sends get request to the API
 # host (str) is domain host, path (str) is path of API after domain

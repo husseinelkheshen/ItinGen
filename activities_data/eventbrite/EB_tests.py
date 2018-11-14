@@ -1,11 +1,11 @@
 #Class for testing eventbrite API calls
 #tests are run both during data collection process and before passing data to next step
 class Tests:
-	
+
 	def __init__(self):
 		self.num_tests = 0
 		self.success_tests = 0
-	
+
 	#check venue for valid field types
 	def venue_valid(self, venue):
 		is_valid = True
@@ -124,4 +124,3 @@ class Tests:
 		print('\tTESTS: %d tests run, %d tests passed' % (self.num_tests, self.success_tests))
 
 EB_tests = Tests()
-
