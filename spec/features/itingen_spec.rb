@@ -1,12 +1,31 @@
 require 'rails_helper'
 
+class Home
+  include Capybara::DSL
+  def visit_homepage
+    visit('/')
+  end
+end
+
+feature "Visit homepage" do
+  let(:home) {Home.new}
+  scenario "Able to see text, Word Nerds", :js => true do
+    sleep(10)
+    home.visit_homepage
+    binding.pry
+    expect(page).to have_content("Word Nerds")
+  end
+end
+
 #describe 'content' do
   #before do
     #visit root_path
+    #sleep(10)
   #end
 
   #describe 'homepage' do
     #it 'should be reached successfully' do
+      #binding.pry
       #expect(page.status_code).to eq(200)
     #end
   #end
