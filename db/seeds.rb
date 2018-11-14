@@ -3,6 +3,7 @@ require "json"
 Dir.glob('activities_data/venues/*.json').each do |venues_json|
   venues = JSON.parse(File.read(venues_json))
   venues.each do |venue|
+    puts venue
     Venue.create!(venue)
   end
 end
