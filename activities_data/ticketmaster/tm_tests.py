@@ -25,7 +25,7 @@ import time
 #
 # [
 #         {
-#             "venue_id": (int),
+#             "venue_id": (str),
 #             "venue_name": (str),
 #             "latitude": (float),
 #             "longitude": (float),
@@ -37,7 +37,7 @@ import time
 #             "zip_code": (string)
 #         },
 #         {
-#             "venue_id": (int),
+#             "venue_id": (str),
 #             "venue_name": (str),
 #             "latitude": (float),
 #             "longitude": (float),
@@ -168,29 +168,48 @@ def tm_event_check(event):
 
 
 # check that all events have a valid venue id
-def check_all_venue_id(events, venues):
+def check_all_venue_id(events, venues, venue_ids, venue_bu):
     '''
     before pushing the data that we just processed into the database, we need
     to confirm that all of the events that we processed have a valid venue_id
 
     input:
-        events (dict) - the final dict that we plan to push into the database
-        venues (list) - a list of venues that are in our database or are going
+        events (list) - list of dicts that we plan to push into the database
+        venue_ids (set) - a set of venues that are in our database or are going
                         to be added into the database
+        venues (list) - list of dicts of venues
     output:
         valid (boolean) - True or False
+        del_list (list) - list of indexes to delete
     '''
-    venues = set(venues) # make it faster to check if an id exists
-    valid = True
+    del_list = []
 
-    for event in events["events"]:
-        venue_id = event["venue_id"]
-        if not venue_id in venues:
-            event_id = event["event_id"]
-            print("\tEVENT ERROR: event %d has invalid venue_id" % event_id)
+    for i, e in enumerate(events):
+        valid = True
+        venue_id = e["venue_id"]
+        if venue_id not in venue_ids:
             valid = False
+            event_name = e["event_name"]
+            print("\tEVENT ERROR: event %s has invalid venue_id" % event_name)
+            print("\t\tEVENT ID: %s" % e["event_id"])
+            print("\tLOOKING FOR SOLUTION: looking for a name match")
+            for v in venues:
+                if v["venue_name"] == e["venue_name"]:
+                    valid = True
+                    print("\tFOUND NEW MATCH: found from existing venues")
+                    events[i]["venue_id"] = v["venue_id"]
+                    break
+            # worse case scenario we can look through our backups
+            if not valid:
+                for v in venue_bu:
+                    if v["venue_id"] == venue_id:
+                        valid = True
+                        print("FOUND NEW MATCH: found from backup venues")
+                        venues.append(v)
+        if not valid:
+            del_list.append(i) # delete the bad events
 
-    return valid
+    return del_list
 
 
 # check the return value of the request

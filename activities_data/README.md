@@ -14,7 +14,7 @@ group of activities. Activity groups include:
 
 **Ticketmaster API:** Sports, Music
 
-**Yelp API:** Food, Museums
+**Yelp API:** Food, Museums, Nightlife
 
 **Eventbrite API:** City events
 
@@ -35,3 +35,6 @@ execution and after execution to make sure that data is valid and requests
 are returning correctly
 
 *structure subject to change*
+
+## Main Database Pipeline
+Run master_data_pipeline.py to generate json files for all APIs to their respective folders 

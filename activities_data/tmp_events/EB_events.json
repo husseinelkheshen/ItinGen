@@ -1,1842 +1,1002 @@
 [
-    {
-      "event_id": "EB_47326298232",
-      "event_name": "A Celebration of Entrepreneurship:  Drinks, Food and Experience Sharing",
-      "venue_id": "EB_26394000",
-      "start": 960,
-      "end": 1380,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 95.0
-    },
-    {
-      "event_id": "EB_52419600436",
-      "event_name": "RTR Unlimited Pop-Up Series at WeWork",
-      "venue_id": "EB_27855326",
-      "start": 540,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48612476225",
-      "event_name": "A Collaboration Between Uniform & The Body / Author & Punisher / Intensive Care @ The Empty Bottle",
-      "venue_id": "EB_20882078",
-      "start": 1230,
-      "end": 1800,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_31465680698",
-      "event_name": "2nd International Wildlife Reintroduction Conference",
-      "venue_id": "EB_21769915",
-      "start": 780,
-      "end": 5580,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 450.0
-    },
-    {
-      "event_id": "EB_51984591312",
-      "event_name": "Mrs. Miller's going away party",
-      "venue_id": "EB_27642679",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52370525652",
-      "event_name": "adidas Originals #TLKS",
-      "venue_id": "EB_26880143",
-      "start": 1170,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_41704107107",
-      "event_name": "Chi Hack Night",
-      "venue_id": "EB_9499898",
-      "start": 1080,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": -10
-    },
-    {
-      "event_id": "EB_51563455684",
-      "event_name": "Yossi Klein Halevi & Dr. Walid Issa, in Conversation",
-      "venue_id": "EB_27458135",
-      "start": 1170,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51722381034",
-      "event_name": "Women in Product Chicago: (Pre-)Holiday Happy Hour",
-      "venue_id": "EB_27546090",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48259106286",
-      "event_name": "Shelter From The Storm: Recognizing, Understanding and Defining Trauma 1",
-      "venue_id": "EB_25045764",
-      "start": 990,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50544161949",
-      "event_name": "Richard Shindell w/ Ben White",
-      "venue_id": "EB_21015749",
-      "start": 1170,
-      "end": 1350,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 17.0
-    },
-    {
-      "event_id": "EB_51335342391",
-      "event_name": "ARA Briefing - Far Southwest Region",
-      "venue_id": "EB_27340069",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52351171764",
-      "event_name": "Total Life Changes presents:The #1 female Network Marketer in the world! Stormy Wellington",
-      "venue_id": "EB_27825055",
-      "start": 1140,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 8.0
-    },
-    {
-      "event_id": "EB_50935005974",
-      "event_name": "StartOut Chicago Demo Day",
-      "venue_id": "EB_27160916",
-      "start": 1080,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 5.0
-    },
-    {
-      "event_id": "EB_51655328478",
-      "event_name": "7th Annual Legal Prep Associate Board Trivia Night",
-      "venue_id": "EB_27521200",
-      "start": 1080,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 40.0
-    },
-    {
-      "event_id": "EB_51979997572",
-      "event_name": "Parent University presented by School District 89's Parent Advisory Council",
-      "venue_id": "EB_22699956",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51333213022",
-      "event_name": "Dr. Vic's Book Launch Party",
-      "venue_id": "EB_23141129",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51724139293",
-      "event_name": "ASID Illinois Speed Networking & Membership Party",
-      "venue_id": "EB_27537495",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51768513016",
-      "event_name": "Greenbuild Happy Hour with MEEA",
-      "venue_id": "EB_27633636",
-      "start": 1050,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50427337524",
-      "event_name": "LinkedIn Local Chicago: Personal Branding to Build Your Influence Online",
-      "venue_id": "EB_27631120",
-      "start": 1050,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_49417181119",
-      "event_name": "FREE TICKETS STANDUP COMEDY LAUGH FACTORY CHICAGO",
-      "venue_id": "EB_24472311",
-      "start": 1200,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49147209627",
-      "event_name": "Polsky Exchange November Quick Pitch",
-      "venue_id": "EB_26231707",
-      "start": 1020,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52055026987",
-      "event_name": "2019 JIMC Launch Event",
-      "venue_id": "EB_27682452",
-      "start": 1050,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52063782174",
-      "event_name": "Ravenswood Industrial Corridor Public Meeting - Open House",
-      "venue_id": "EB_27687644",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50511669764",
-      "event_name": "People Development: Reshaping How We Think About Human Capital",
-      "venue_id": "EB_27504221",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51167535476",
-      "event_name": "Friends Trivia at Pinstripes Chicago",
-      "venue_id": "EB_27148961",
-      "start": 1170,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51827936754",
-      "event_name": "Sips & Cheese",
-      "venue_id": "EB_27582910",
-      "start": 1020,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49753848099",
-      "event_name": "Holiday Wreath Creation ",
-      "venue_id": "EB_15870538",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 60.0
-    },
-    {
-      "event_id": "EB_51330243139",
-      "event_name": "Have a Startup and A life! Live Q&A",
-      "venue_id": "EB_27335966",
-      "start": 1050,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 5.0
-    },
-    {
-      "event_id": "EB_51301131064",
-      "event_name": "WELL Happy Hour",
-      "venue_id": "EB_27318801",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51278438189",
-      "event_name": "Words on Walls, Paint on Pages (Part II)",
-      "venue_id": "EB_27303139",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51104001444",
-      "event_name": "Build your Own Website with HTML/CSS",
-      "venue_id": "EB_26787125",
-      "start": 1110,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51483294921",
-      "event_name": "Careers in Real Estate Law",
-      "venue_id": "EB_27411644",
-      "start": 1020,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_46379193416",
-      "event_name": "The Moth @ The Promontory",
-      "venue_id": "EB_20881999",
-      "start": 1080,
-      "end": 1800,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_50279347883",
-      "event_name": "FREE TICKETS! Comedy and Free Prizes at Laugh Factory Tuesdays",
-      "venue_id": "EB_21360617",
-      "start": 1170,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52283188424",
-      "event_name": "ODLSS Parent Informational Session ",
-      "venue_id": "EB_27791481",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51282529426",
-      "event_name": "ILEE November 2018 Movement Meeting",
-      "venue_id": "EB_27767802",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51783925114",
-      "event_name": "November 2018 Diversity and Inclusion Dinner Series",
-      "venue_id": "EB_27565489",
-      "start": 960,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52149840577",
-      "event_name": "Behind the Bottle ",
-      "venue_id": "EB_22007965",
-      "start": 960,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52369561769",
-      "event_name": "Scotch Educational Seminar",
-      "venue_id": "EB_27833648",
-      "start": 750,
-      "end": 900,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51617042965",
-      "event_name": "Developing Your Personal Brand",
-      "venue_id": "EB_26555253",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_51906225919",
-      "event_name": "COMTO Chicago Presents Keeping Your Career on Track",
-      "venue_id": "EB_27608580",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52181521335",
-      "event_name": "Live Auditions for December 18th Showcase ",
-      "venue_id": "EB_22884953",
-      "start": 1080,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_51296636621",
-      "event_name": "Who\u2019s Ready to Eat Fat?  An Introduction to the Ketogenic Diet",
-      "venue_id": "EB_25667661",
-      "start": 1080,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 65.0
-    },
-    {
-      "event_id": "EB_50074806093",
-      "event_name": "Chicago - Getting Paid to Talk, Making Money with Your Voice",
-      "venue_id": "EB_21444258",
-      "start": 1140,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 40.0
-    },
-    {
-      "event_id": "EB_51300821137",
-      "event_name": "WELL Survey Workshop ",
-      "venue_id": "EB_27318801",
-      "start": 810,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51482673061",
-      "event_name": "Country Grammar w/ DJ Slow Mo @ The Promontory",
-      "venue_id": "EB_20881999",
-      "start": 1260,
-      "end": 1800,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51796322194",
-      "event_name": "FREE COMEDY SHOW! PRIZES AND CHICAGO'S BEST STANDUP",
-      "venue_id": "EB_24472311",
-      "start": 1170,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51817370149",
-      "event_name": "Discover the World of Foods from Spain!",
-      "venue_id": "EB_27563258",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 20.0
-    },
-    {
-      "event_id": "EB_50604782266",
-      "event_name": "BrewTube Comedy at On Tour Brewing!",
-      "venue_id": "EB_25656461",
-      "start": 1200,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 12.0
-    },
-    {
-      "event_id": "EB_47326298232",
-      "event_name": "A Celebration of Entrepreneurship:  Drinks, Food and Experience Sharing",
-      "venue_id": "EB_26394000",
-      "start": 960,
-      "end": 1380,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 95.0
-    },
-    {
-      "event_id": "EB_52419600436",
-      "event_name": "RTR Unlimited Pop-Up Series at WeWork",
-      "venue_id": "EB_27855326",
-      "start": 540,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48612476225",
-      "event_name": "A Collaboration Between Uniform & The Body / Author & Punisher / Intensive Care @ The Empty Bottle",
-      "venue_id": "EB_20882078",
-      "start": 1230,
-      "end": 1800,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_31465680698",
-      "event_name": "2nd International Wildlife Reintroduction Conference",
-      "venue_id": "EB_21769915",
-      "start": 780,
-      "end": 5580,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 450.0
-    },
-    {
-      "event_id": "EB_51984591312",
-      "event_name": "Mrs. Miller's going away party",
-      "venue_id": "EB_27642679",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52370525652",
-      "event_name": "adidas Originals #TLKS",
-      "venue_id": "EB_26880143",
-      "start": 1170,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_41704107107",
-      "event_name": "Chi Hack Night",
-      "venue_id": "EB_9499898",
-      "start": 1080,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": -10
-    },
-    {
-      "event_id": "EB_51563455684",
-      "event_name": "Yossi Klein Halevi & Dr. Walid Issa, in Conversation",
-      "venue_id": "EB_27458135",
-      "start": 1170,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51722381034",
-      "event_name": "Women in Product Chicago: (Pre-)Holiday Happy Hour",
-      "venue_id": "EB_27546090",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48259106286",
-      "event_name": "Shelter From The Storm: Recognizing, Understanding and Defining Trauma 1",
-      "venue_id": "EB_25045764",
-      "start": 990,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50544161949",
-      "event_name": "Richard Shindell w/ Ben White",
-      "venue_id": "EB_21015749",
-      "start": 1170,
-      "end": 1350,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 17.0
-    },
-    {
-      "event_id": "EB_51335342391",
-      "event_name": "ARA Briefing - Far Southwest Region",
-      "venue_id": "EB_27340069",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52351171764",
-      "event_name": "Total Life Changes presents:The #1 female Network Marketer in the world! Stormy Wellington",
-      "venue_id": "EB_27825055",
-      "start": 1140,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 8.0
-    },
-    {
-      "event_id": "EB_50935005974",
-      "event_name": "StartOut Chicago Demo Day",
-      "venue_id": "EB_27160916",
-      "start": 1080,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 5.0
-    },
-    {
-      "event_id": "EB_51655328478",
-      "event_name": "7th Annual Legal Prep Associate Board Trivia Night",
-      "venue_id": "EB_27521200",
-      "start": 1080,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 40.0
-    },
-    {
-      "event_id": "EB_51979997572",
-      "event_name": "Parent University presented by School District 89's Parent Advisory Council",
-      "venue_id": "EB_22699956",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51333213022",
-      "event_name": "Dr. Vic's Book Launch Party",
-      "venue_id": "EB_23141129",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51724139293",
-      "event_name": "ASID Illinois Speed Networking & Membership Party",
-      "venue_id": "EB_27537495",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51768513016",
-      "event_name": "Greenbuild Happy Hour with MEEA",
-      "venue_id": "EB_27633636",
-      "start": 1050,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50427337524",
-      "event_name": "LinkedIn Local Chicago: Personal Branding to Build Your Influence Online",
-      "venue_id": "EB_27631120",
-      "start": 1050,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_49417181119",
-      "event_name": "FREE TICKETS STANDUP COMEDY LAUGH FACTORY CHICAGO",
-      "venue_id": "EB_24472311",
-      "start": 1200,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49147209627",
-      "event_name": "Polsky Exchange November Quick Pitch",
-      "venue_id": "EB_26231707",
-      "start": 1020,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52055026987",
-      "event_name": "2019 JIMC Launch Event",
-      "venue_id": "EB_27682452",
-      "start": 1050,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52063782174",
-      "event_name": "Ravenswood Industrial Corridor Public Meeting - Open House",
-      "venue_id": "EB_27687644",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50511669764",
-      "event_name": "People Development: Reshaping How We Think About Human Capital",
-      "venue_id": "EB_27504221",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51167535476",
-      "event_name": "Friends Trivia at Pinstripes Chicago",
-      "venue_id": "EB_27148961",
-      "start": 1170,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51827936754",
-      "event_name": "Sips & Cheese",
-      "venue_id": "EB_27582910",
-      "start": 1020,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49753848099",
-      "event_name": "Holiday Wreath Creation ",
-      "venue_id": "EB_15870538",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 60.0
-    },
-    {
-      "event_id": "EB_51330243139",
-      "event_name": "Have a Startup and A life! Live Q&A",
-      "venue_id": "EB_27335966",
-      "start": 1050,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 5.0
-    },
-    {
-      "event_id": "EB_51301131064",
-      "event_name": "WELL Happy Hour",
-      "venue_id": "EB_27318801",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51278438189",
-      "event_name": "Words on Walls, Paint on Pages (Part II)",
-      "venue_id": "EB_27303139",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51104001444",
-      "event_name": "Build your Own Website with HTML/CSS",
-      "venue_id": "EB_26787125",
-      "start": 1110,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51483294921",
-      "event_name": "Careers in Real Estate Law",
-      "venue_id": "EB_27411644",
-      "start": 1020,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_46379193416",
-      "event_name": "The Moth @ The Promontory",
-      "venue_id": "EB_20881999",
-      "start": 1080,
-      "end": 1800,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_50279347883",
-      "event_name": "FREE TICKETS! Comedy and Free Prizes at Laugh Factory Tuesdays",
-      "venue_id": "EB_21360617",
-      "start": 1170,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52283188424",
-      "event_name": "ODLSS Parent Informational Session ",
-      "venue_id": "EB_27791481",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51282529426",
-      "event_name": "ILEE November 2018 Movement Meeting",
-      "venue_id": "EB_27767802",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51783925114",
-      "event_name": "November 2018 Diversity and Inclusion Dinner Series",
-      "venue_id": "EB_27565489",
-      "start": 960,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52149840577",
-      "event_name": "Behind the Bottle ",
-      "venue_id": "EB_22007965",
-      "start": 960,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52369561769",
-      "event_name": "Scotch Educational Seminar",
-      "venue_id": "EB_27833648",
-      "start": 750,
-      "end": 900,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51617042965",
-      "event_name": "Developing Your Personal Brand",
-      "venue_id": "EB_26555253",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_51906225919",
-      "event_name": "COMTO Chicago Presents Keeping Your Career on Track",
-      "venue_id": "EB_27608580",
-      "start": 1020,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52181521335",
-      "event_name": "Live Auditions for December 18th Showcase ",
-      "venue_id": "EB_22884953",
-      "start": 1080,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_51296636621",
-      "event_name": "Who\u2019s Ready to Eat Fat?  An Introduction to the Ketogenic Diet",
-      "venue_id": "EB_25667661",
-      "start": 1080,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 65.0
-    },
-    {
-      "event_id": "EB_50074806093",
-      "event_name": "Chicago - Getting Paid to Talk, Making Money with Your Voice",
-      "venue_id": "EB_21444258",
-      "start": 1140,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 40.0
-    },
-    {
-      "event_id": "EB_51300821137",
-      "event_name": "WELL Survey Workshop ",
-      "venue_id": "EB_27318801",
-      "start": 810,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51482673061",
-      "event_name": "Country Grammar w/ DJ Slow Mo @ The Promontory",
-      "venue_id": "EB_20881999",
-      "start": 1260,
-      "end": 1800,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51796322194",
-      "event_name": "FREE COMEDY SHOW! PRIZES AND CHICAGO'S BEST STANDUP",
-      "venue_id": "EB_24472311",
-      "start": 1170,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51817370149",
-      "event_name": "Discover the World of Foods from Spain!",
-      "venue_id": "EB_27563258",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 20.0
-    },
-    {
-      "event_id": "EB_50604782266",
-      "event_name": "BrewTube Comedy at On Tour Brewing!",
-      "venue_id": "EB_25656461",
-      "start": 1200,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 12.0
-    },
-    {
-      "event_id": "EB_52194171171",
-      "event_name": "Becoming Michelle",
-      "venue_id": "EB_27745016",
-      "start": 1200,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51269137370",
-      "event_name": "Tuesday November 13: Tomato Throw Show",
-      "venue_id": "EB_27297575",
-      "start": 1200,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_50163391053",
-      "event_name": "Fullstack Academy Information Session (Chicago Campus)",
-      "venue_id": "EB_23305564",
-      "start": 1110,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50145353101",
-      "event_name": "Customer Success Initiative Team Meeting (Online)",
-      "venue_id": "EB_25787045",
-      "start": 540,
-      "end": 2460,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51750958510",
-      "event_name": "Undergraduate Language Grants: Student Panel",
-      "venue_id": "EB_27551877",
-      "start": 1080,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50964583441",
-      "event_name": "2018 Youth Crisis Service Volunteers Needed",
-      "venue_id": "EB_22075988",
-      "start": 1110,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49851983625",
-      "event_name": "W Bootcamp",
-      "venue_id": "EB_19952498",
-      "start": 1080,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51311352637",
-      "event_name": "\"All of Me\" Free Screening ",
-      "venue_id": "EB_27324309",
-      "start": 1050,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52163358008",
-      "event_name": "Equinox + lululemon Fall Run Club",
-      "venue_id": "EB_27726798",
-      "start": 1080,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52431955390",
-      "event_name": "LAST CHANCE VIEWING for Woke & Winning Social Justice Art Exhibit and Happy Hour x3",
-      "venue_id": "EB_27503801",
-      "start": 960,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49020389304",
-      "event_name": "Managing Change Through Internal Communications",
-      "venue_id": "EB_26836275",
-      "start": 510,
-      "end": 3780,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 1295.0
-    },
-    {
-      "event_id": "EB_52056452250",
-      "event_name": "Get Slim! Start the day after Thanksgiving and lose 20-35 lbs by January 3",
-      "venue_id": "EB_27683163",
-      "start": 1140,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51828823406",
-      "event_name": "EvolveSec / Hack Your Cybersecurity Career: Enter or Grow in the Industry",
-      "venue_id": "EB_27289214",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52315668573",
-      "event_name": "Accion In Your Neighborhood: Humboldt Park",
-      "venue_id": "EB_27808682",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52031303028",
-      "event_name": "Membership Event: Environmental Action Focus Meeting",
-      "venue_id": "EB_27438672",
-      "start": 1170,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52175111162",
-      "event_name": "Property Tax Appeal Workshop",
-      "venue_id": "EB_27733967",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52260319021",
-      "event_name": "Plannerpalooza: Create an execution plan to get goals done",
-      "venue_id": "EB_27780054",
-      "start": 1050,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51487751250",
-      "event_name": "Wholesaling Real Estate in Chicago IL",
-      "venue_id": "EB_25522723",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51563796704",
-      "event_name": "2018 Women in Sustainability Leadership Award Reception",
-      "venue_id": "EB_27458298",
-      "start": 1050,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 225.0
-    },
-    {
-      "event_id": "EB_52037368169",
-      "event_name": "Science of Getting Rich Workshop Sessions @ Unity of Chicago South",
-      "venue_id": "EB_27671405",
-      "start": 1110,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52050888609",
-      "event_name": "Living Security Escape Room at FS ISAC Fall Summit",
-      "venue_id": "EB_27680321",
-      "start": 960,
-      "end": 990,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52230952184",
-      "event_name": "Light the Night",
-      "venue_id": "EB_27808553",
-      "start": 1020,
-      "end": 1080,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52511597602",
-      "event_name": "Connecting With Courage",
-      "venue_id": "EB_25980819",
-      "start": 1140,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 40.0
-    },
-    {
-      "event_id": "EB_50582946956",
-      "event_name": "CPR/AED Certification for Work - Chicago (Lincoln Park) at Prenatal Fit Gym",
-      "venue_id": "EB_7288397",
-      "start": 1110,
-      "end": -1665,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 65.0
-    },
-    {
-      "event_id": "EB_51379406187",
-      "event_name": "Black Women in Science and Engineering Presents...\"Careers and Conversations: SEIA Women\u2019s Empowerment Summit\u201d",
-      "venue_id": "EB_27360584",
-      "start": 1080,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_51593150502",
-      "event_name": "Family Independence Initiative Info Session",
-      "venue_id": "EB_27906371",
-      "start": 1110,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51738889411",
-      "event_name": "Film and Discussion",
-      "venue_id": "EB_22319405",
-      "start": 1140,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52243550867",
-      "event_name": "Prusa i3 MK2S 3D Printer Authorization",
-      "venue_id": "EB_25977827",
-      "start": 1020,
-      "end": 1110,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_43710634685",
-      "event_name": "Geeks who Drink! Jolly Pumpkin Trivia Night ",
-      "venue_id": "EB_23039008",
-      "start": 1200,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51149869637",
-      "event_name": "[November] Barista Basics:  Pulling Espresso & Steaming Milk",
-      "venue_id": "EB_21806319",
-      "start": 1110,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 52.0
-    },
-    {
-      "event_id": "EB_51743809126",
-      "event_name": "Food Allergy Presentation- We Are All Affected ",
-      "venue_id": "EB_27520113",
-      "start": 1080,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51980657546",
-      "event_name": "The Witches' Conclave Candle Carving Workshop",
-      "venue_id": "EB_27906740",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_52201149042",
-      "event_name": "Empowering A Billion Women",
-      "venue_id": "EB_27748803",
-      "start": 1110,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_52408027822",
-      "event_name": "Nature's 10 Secrets to Staying Healthy for the Holidays!",
-      "venue_id": "EB_27848995",
-      "start": 1110,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52247840698",
-      "event_name": "Taco Tuesday Game Night at Murphy's Lounge",
-      "venue_id": "EB_27773157",
-      "start": 1140,
-      "end": 1560,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52513904502",
-      "event_name": " Thanksgiving with a Twist: Vegan Indian Cooking Master Class",
-      "venue_id": "EB_27893130",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 20.0
-    },
-    {
-      "event_id": "EB_49862358657",
-      "event_name": "Dare2tri Indoor Gym & Swim Practices - Volunteers",
-      "venue_id": "EB_11611939",
-      "start": 1080,
-      "end": 2640,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48356617946",
-      "event_name": "Michigan Ave Toastmasters Meeting",
-      "venue_id": "EB_25828446",
-      "start": 1095,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49769851967",
-      "event_name": "Kizuki Anime Night Donation - Oct & Nov 2018",
-      "venue_id": "EB_15149288",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": -10
-    },
-    {
-      "event_id": "EB_50472759382",
-      "event_name": "The Era Of Websites Is OVER, What Now?... FREE WEBINAR",
-      "venue_id": "EB_26891832",
-      "start": 1140,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50772986369",
-      "event_name": "Start Your Own Credit Repair Business-Call Chicago-Felicia Guidry",
-      "venue_id": "EB_27050097",
-      "start": 1200,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50934113304",
-      "event_name": "An Evening of French Baroque Opera",
-      "venue_id": "EB_27134170",
-      "start": 1110,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_51032385238",
-      "event_name": "Money Mastery (The Basics) - Financial Foundations for Wealth Creation   ",
-      "venue_id": "EB_25090838",
-      "start": 1095,
-      "end": 1275,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 50.0
-    },
-    {
-      "event_id": "EB_51740130122",
-      "event_name": "Thinkful Webinar: What is a Data Scientist? ",
-      "venue_id": "EB_27543324",
-      "start": 1140,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51750824108",
-      "event_name": "Free Grant Writing Intro Training - Chicago, Illinois",
-      "venue_id": "EB_27782024",
-      "start": 1170,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_45595643798",
-      "event_name": "Surf & Turf Progressive Dinner",
-      "venue_id": "EB_21683696",
-      "start": 1080,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 200.0
-    },
-    {
-      "event_id": "EB_44145624752",
-      "event_name": "WEALTH BUILDING THROUGH REAL ESTATE CHICAGO NORTH SIDE IL",
-      "venue_id": "EB_23721442",
-      "start": 1110,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51618222493",
-      "event_name": "7 Effective Ways to control your Debt and How to Live Debt FREE Lifestyle Chicago",
-      "venue_id": "EB_24602377",
-      "start": 1080,
-      "end": 1140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 9.99
-    },
-    {
-      "event_id": "EB_45885542894",
-      "event_name": "Moonlight Yoga in Logan Square",
-      "venue_id": "EB_21555960",
-      "start": 1230,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_47625862236",
-      "event_name": "Chicago Real Estate Investing LIVE Orientation - Northside",
-      "venue_id": "EB_25522723",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_47721733991",
-      "event_name": "Wolfkeeper Group Class",
-      "venue_id": "EB_25555406",
-      "start": 1140,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_47925610792",
-      "event_name": "Courage to Quit",
-      "venue_id": "EB_25639608",
-      "start": 1050,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51939165442",
-      "event_name": "Chicago Velocity Banking Game (No FEE to attend)",
-      "venue_id": "EB_25842698",
-      "start": 1110,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48481052132",
-      "event_name": "SAFe\u00ae 4.0 Advanced Scrum Master with SASM Certification Training in Chicago, IL on Nov 13th-14th 2018",
-      "venue_id": "EB_22459177",
-      "start": 540,
-      "end": 2460,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 999.0
-    },
-    {
-      "event_id": "EB_49802319077",
-      "event_name": "Chicago Northside Business Introduction Presentation (No FEE to attend)",
-      "venue_id": "EB_25524838",
-      "start": 1110,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_48992730576",
-      "event_name": "Master your self-esteem challenge",
-      "venue_id": "EB_26166479",
-      "start": 1140,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 20.0
-    },
-    {
-      "event_id": "EB_50724829330",
-      "event_name": "Learn Real Estate Investing - Chicago Northside",
-      "venue_id": "EB_25966993",
-      "start": 1110,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_49905063388",
-      "event_name": "Chicago Real Estate Investing LIVE Orientation",
-      "venue_id": "EB_26598714",
-      "start": 1140,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50298153130",
-      "event_name": "Queens In Motion Presents:\"Hit Like A Girl\" Self-Defense Fitness & Boxing Classes",
-      "venue_id": "EB_26699574",
-      "start": 1140,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50660910146",
-      "event_name": "Throwback Tuesdays - 80s Edition",
-      "venue_id": "EB_25547988",
-      "start": 1140,
-      "end": 1380,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_50808362179",
-      "event_name": "Chakra Healing Intensive Series Reiki, Sound Healing, Medical Intuitive",
-      "venue_id": "EB_27071061",
-      "start": 1050,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 100.0
-    },
-    {
-      "event_id": "EB_51007226989",
-      "event_name": "Real Estate Investing for Aspiring Investors- Chicago Northside",
-      "venue_id": "EB_27166863",
-      "start": 1110,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51273063112",
-      "event_name": "Industry Mondays and events guest list and Bottle Service",
-      "venue_id": "EB_27299516",
-      "start": 1140,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51309312535",
-      "event_name": "Chicago Nightlife and Bottle Service Bookings ",
-      "venue_id": "EB_27322554",
-      "start": 1140,
-      "end": 1320,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51427507058",
-      "event_name": "Holiday Grief Support Groups",
-      "venue_id": "EB_27385468",
-      "start": 1140,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51488181537",
-      "event_name": "LEASE OPTIONS Real Estate Live Introduction - Chicago IL",
-      "venue_id": "EB_25522723",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51611677918",
-      "event_name": "4 Easy Steps To Get Your Employees Excited About Change (Webinar)",
-      "venue_id": "EB_27482305",
-      "start": 1140,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_51663185980",
-      "event_name": "Creating Change During the #MeToo Era :: What Do We Do From Here? ",
-      "venue_id": "EB_26611203",
-      "start": 1110,
-      "end": 1230,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 35.0
-    },
-    {
-      "event_id": "EB_51686282061",
-      "event_name": "Multi-Family Buildings Investing Live Orientation  - Northside",
-      "venue_id": "EB_25522723",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_51702705183",
-      "event_name": "7 Strategies to Build a High-Performing Team in Your Organization (Webinar)",
-      "venue_id": "EB_27482305",
-      "start": 1140,
-      "end": 1185,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 15.0
-    },
-    {
-      "event_id": "EB_51730707940",
-      "event_name": "Amazon Ecommerce Strategy Master Mind  ",
-      "venue_id": "EB_27552579",
-      "start": 1080,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 25.0
-    },
-    {
-      "event_id": "EB_51834350939",
-      "event_name": "Let's Network Together (For Mongolians)",
-      "venue_id": "EB_27749784",
-      "start": 1080,
-      "end": 4140,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52011381442",
-      "event_name": "HOPE Focus Group",
-      "venue_id": "EB_27656876",
-      "start": 1080,
-      "end": 1200,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52012843816",
-      "event_name": "Learn How to Use Crystals",
-      "venue_id": "EB_26330843",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 33.0
-    },
-    {
-      "event_id": "EB_52080754940",
-      "event_name": "Copy of Juan De Dios Zumbathon ",
-      "venue_id": "EB_27695176",
-      "start": 1080,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 12.0
-    },
-    {
-      "event_id": "EB_52378426283",
-      "event_name": "The Get it Done Accountability Group",
-      "venue_id": "EB_27513863",
-      "start": 780,
-      "end": 960,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 10.0
-    },
-    {
-      "event_id": "EB_52440621310",
-      "event_name": "IL Real Estate Investment Workshop",
-      "venue_id": "EB_27865456",
-      "start": 1110,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52451850898",
-      "event_name": "Tuco Taco Tuesday with Rodan + Fields",
-      "venue_id": "EB_27870625",
-      "start": 1050,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52453122702",
-      "event_name": "Def Leperchaun! ",
-      "venue_id": "EB_27729173",
-      "start": 1200,
-      "end": 1290,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52476002135",
-      "event_name": "Business Introduction Presentation by Scott Rowe",
-      "venue_id": "EB_25842698",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52493339993",
-      "event_name": "Coding Temple Open House",
-      "venue_id": "EB_27883247",
-      "start": 990,
-      "end": 1050,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52512840319",
-      "event_name": "Yoga Love by Caress",
-      "venue_id": "EB_27892469",
-      "start": 1110,
-      "end": 1170,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": -10
-    },
-    {
-      "event_id": "EB_52537777908",
-      "event_name": "Rowe-Clark Visitor Day",
-      "venue_id": "EB_27904266",
-      "start": 1140,
-      "end": 21480,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 0.0
-    },
-    {
-      "event_id": "EB_52541012583",
-      "event_name": "Thanksgiving with a Twist: Vegan Indian Cooking Master Class + Dinner",
-      "venue_id": "EB_27893130",
-      "start": 1140,
-      "end": 1260,
-      "date": "11-13-2018",
-      "tags": "",
-      "price": 25.0
-    }
+  {
+    "event_id": "EB_47326298232",
+    "event_name": "A Celebration of Entrepreneurship:  Drinks, Food and Experience Sharing",
+    "venue_id": "EB_26394000",
+    "start": 960,
+    "end": 1380,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 95.0
+  },
+  {
+    "event_id": "EB_31465680698",
+    "event_name": "2nd International Wildlife Reintroduction Conference",
+    "venue_id": "EB_21769915",
+    "start": 780,
+    "end": 5580,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 450.0
+  },
+  {
+    "event_id": "EB_52370525652",
+    "event_name": "adidas Originals #TLKS",
+    "venue_id": "EB_26880143",
+    "start": 1170,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51563455684",
+    "event_name": "Yossi Klein Halevi & Dr. Walid Issa, in Conversation",
+    "venue_id": "EB_27458135",
+    "start": 1170,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52351171764",
+    "event_name": "Total Life Changes presents:The #1 female Network Marketer in the world! Stormy Wellington",
+    "venue_id": "EB_27825055",
+    "start": 1140,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 8.0
+  },
+  {
+    "event_id": "EB_50544161949",
+    "event_name": "Richard Shindell w/ Ben White",
+    "venue_id": "EB_21015749",
+    "start": 1170,
+    "end": 1350,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 17.0
+  },
+  {
+    "event_id": "EB_51335342391",
+    "event_name": "ARA Briefing - Far Southwest Region",
+    "venue_id": "EB_27340069",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_46379193416",
+    "event_name": "The Moth @ The Promontory",
+    "venue_id": "EB_20881999",
+    "start": 1080,
+    "end": 1800,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 10.0
+  },
+  {
+    "event_id": "EB_51768513016",
+    "event_name": "Greenbuild Happy Hour with MEEA",
+    "venue_id": "EB_27633636",
+    "start": 1050,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52055026987",
+    "event_name": "2019 JIMC Launch Event",
+    "venue_id": "EB_27682452",
+    "start": 1050,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51827936754",
+    "event_name": "Sips & Cheese",
+    "venue_id": "EB_27582910",
+    "start": 1020,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51482673061",
+    "event_name": "Country Grammar w/ DJ Slow Mo @ The Promontory",
+    "venue_id": "EB_20881999",
+    "start": 1260,
+    "end": 1800,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51282529426",
+    "event_name": "ILEE November 2018 Movement Meeting",
+    "venue_id": "EB_27767802",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52283188424",
+    "event_name": "ODLSS Parent Informational Session ",
+    "venue_id": "EB_27791481",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51617042965",
+    "event_name": "Developing Your Personal Brand",
+    "venue_id": "EB_26555253",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 10.0
+  },
+  {
+    "event_id": "EB_50604782266",
+    "event_name": "BrewTube Comedy at On Tour Brewing!",
+    "venue_id": "EB_25656461",
+    "start": 1200,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 12.0
+  },
+  {
+    "event_id": "EB_51796322194",
+    "event_name": "FREE COMEDY SHOW! PRIZES AND CHICAGO'S BEST STANDUP",
+    "venue_id": "EB_24472311",
+    "start": 1170,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51179418017",
+    "event_name": "ADVOCACY, INNOVATION, and INTERDISCIPLINARY COLLABORATION",
+    "venue_id": "EB_27250947",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52194171171",
+    "event_name": "Becoming Michelle",
+    "venue_id": "EB_27745016",
+    "start": 1200,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51750958510",
+    "event_name": "Undergraduate Language Grants: Student Panel",
+    "venue_id": "EB_27551877",
+    "start": 1080,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_50145353101",
+    "event_name": "Customer Success Initiative Team Meeting (Online)",
+    "venue_id": "EB_25787045",
+    "start": 540,
+    "end": 2460,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52431955390",
+    "event_name": "LAST CHANCE VIEWING for Woke & Winning Social Justice Art Exhibit and Happy Hour x3",
+    "venue_id": "EB_27503801",
+    "start": 960,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51311352637",
+    "event_name": "\"All of Me\" Free Screening ",
+    "venue_id": "EB_27324309",
+    "start": 1050,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_49020389304",
+    "event_name": "Managing Change Through Internal Communications",
+    "venue_id": "EB_26836275",
+    "start": 510,
+    "end": 3780,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 1295.0
+  },
+  {
+    "event_id": "EB_52056452250",
+    "event_name": "Get Slim! Start the day after Thanksgiving and lose 20-35 lbs by January 3",
+    "venue_id": "EB_27683163",
+    "start": 1140,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51563796704",
+    "event_name": "2018 Women in Sustainability Leadership Award Reception",
+    "venue_id": "EB_27458298",
+    "start": 1050,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 225.0
+  },
+  {
+    "event_id": "EB_51828823406",
+    "event_name": "EvolveSec / Hack Your Cybersecurity Career: Enter or Grow in the Industry",
+    "venue_id": "EB_27289214",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52315668573",
+    "event_name": "Accion In Your Neighborhood: Humboldt Park",
+    "venue_id": "EB_27808682",
+    "start": 1050,
+    "end": 1140,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52031303028",
+    "event_name": "Membership Event: Environmental Action Focus Meeting",
+    "venue_id": "EB_27438672",
+    "start": 1170,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52175111162",
+    "event_name": "Property Tax Appeal Workshop",
+    "venue_id": "EB_27733967",
+    "start": 1050,
+    "end": 1140,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51593150502",
+    "event_name": "Family Independence Initiative Info Session",
+    "venue_id": "EB_27906371",
+    "start": 1110,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51738889411",
+    "event_name": "Film and Discussion",
+    "venue_id": "EB_22319405",
+    "start": 1140,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52511597602",
+    "event_name": "Connecting With Courage",
+    "venue_id": "EB_25980819",
+    "start": 1140,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 40.0
+  },
+  {
+    "event_id": "EB_50582946956",
+    "event_name": "CPR/AED Certification for Work - Chicago (Lincoln Park) at Prenatal Fit Gym",
+    "venue_id": "EB_7288397",
+    "start": 1110,
+    "end": 41535,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 65.0
+  },
+  {
+    "event_id": "EB_51743809126",
+    "event_name": "Food Allergy Presentation- We Are All Affected ",
+    "venue_id": "EB_27520113",
+    "start": 1080,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52408027822",
+    "event_name": "Nature's 10 Secrets to Staying Healthy for the Holidays!",
+    "venue_id": "EB_27848995",
+    "start": 1110,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52247840698",
+    "event_name": "Taco Tuesday Game Night at Murphy's Lounge",
+    "venue_id": "EB_27773157",
+    "start": 1140,
+    "end": 1560,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52513904502",
+    "event_name": " Thanksgiving with a Twist: Vegan Indian Cooking Master Class",
+    "venue_id": "EB_27893130",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 20.0
+  },
+  {
+    "event_id": "EB_50772986369",
+    "event_name": "Start Your Own Credit Repair Business-Call Chicago-Felicia Guidry",
+    "venue_id": "EB_27050097",
+    "start": 1200,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51740130122",
+    "event_name": "Thinkful Webinar: What is a Data Scientist? ",
+    "venue_id": "EB_27543324",
+    "start": 1140,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51750824108",
+    "event_name": "Free Grant Writing Intro Training - Chicago, Illinois",
+    "venue_id": "EB_27782024",
+    "start": 1170,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_45885542894",
+    "event_name": "Moonlight Yoga in Logan Square",
+    "venue_id": "EB_21555960",
+    "start": 1230,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 15.0
+  },
+  {
+    "event_id": "EB_48481052132",
+    "event_name": "SAFe\u00ae 4.0 Advanced Scrum Master with SASM Certification Training in Chicago, IL on Nov 13th-14th 2018",
+    "venue_id": "EB_22459177",
+    "start": 540,
+    "end": 2460,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 999.0
+  },
+  {
+    "event_id": "EB_51427507058",
+    "event_name": "Holiday Grief Support Groups",
+    "venue_id": "EB_27385468",
+    "start": 1140,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52012843816",
+    "event_name": "Learn How to Use Crystals",
+    "venue_id": "EB_26330843",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 33.0
+  },
+  {
+    "event_id": "EB_52451850898",
+    "event_name": "Tuco Taco Tuesday with Rodan + Fields",
+    "venue_id": "EB_27870625",
+    "start": 1050,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52453122702",
+    "event_name": "Def Leperchaun! ",
+    "venue_id": "EB_27729173",
+    "start": 1200,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52476002135",
+    "event_name": "Business Introduction Presentation by Scott Rowe",
+    "venue_id": "EB_25842698",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52512840319",
+    "event_name": "Yoga Love by Caress",
+    "venue_id": "EB_27892469",
+    "start": 1110,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": -10.0
+  },
+  {
+    "event_id": "EB_47326298232",
+    "event_name": "A Celebration of Entrepreneurship:  Drinks, Food and Experience Sharing",
+    "venue_id": "EB_26394000",
+    "start": 960,
+    "end": 1380,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 95.0
+  },
+  {
+    "event_id": "EB_31465680698",
+    "event_name": "2nd International Wildlife Reintroduction Conference",
+    "venue_id": "EB_21769915",
+    "start": 780,
+    "end": 5580,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 450.0
+  },
+  {
+    "event_id": "EB_52370525652",
+    "event_name": "adidas Originals #TLKS",
+    "venue_id": "EB_26880143",
+    "start": 1170,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51563455684",
+    "event_name": "Yossi Klein Halevi & Dr. Walid Issa, in Conversation",
+    "venue_id": "EB_27458135",
+    "start": 1170,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52351171764",
+    "event_name": "Total Life Changes presents:The #1 female Network Marketer in the world! Stormy Wellington",
+    "venue_id": "EB_27825055",
+    "start": 1140,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 8.0
+  },
+  {
+    "event_id": "EB_50544161949",
+    "event_name": "Richard Shindell w/ Ben White",
+    "venue_id": "EB_21015749",
+    "start": 1170,
+    "end": 1350,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 17.0
+  },
+  {
+    "event_id": "EB_51335342391",
+    "event_name": "ARA Briefing - Far Southwest Region",
+    "venue_id": "EB_27340069",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_46379193416",
+    "event_name": "The Moth @ The Promontory",
+    "venue_id": "EB_20881999",
+    "start": 1080,
+    "end": 1800,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 10.0
+  },
+  {
+    "event_id": "EB_51768513016",
+    "event_name": "Greenbuild Happy Hour with MEEA",
+    "venue_id": "EB_27633636",
+    "start": 1050,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52055026987",
+    "event_name": "2019 JIMC Launch Event",
+    "venue_id": "EB_27682452",
+    "start": 1050,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51827936754",
+    "event_name": "Sips & Cheese",
+    "venue_id": "EB_27582910",
+    "start": 1020,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51482673061",
+    "event_name": "Country Grammar w/ DJ Slow Mo @ The Promontory",
+    "venue_id": "EB_20881999",
+    "start": 1260,
+    "end": 1800,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51282529426",
+    "event_name": "ILEE November 2018 Movement Meeting",
+    "venue_id": "EB_27767802",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52283188424",
+    "event_name": "ODLSS Parent Informational Session ",
+    "venue_id": "EB_27791481",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51617042965",
+    "event_name": "Developing Your Personal Brand",
+    "venue_id": "EB_26555253",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 10.0
+  },
+  {
+    "event_id": "EB_50604782266",
+    "event_name": "BrewTube Comedy at On Tour Brewing!",
+    "venue_id": "EB_25656461",
+    "start": 1200,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 12.0
+  },
+  {
+    "event_id": "EB_51796322194",
+    "event_name": "FREE COMEDY SHOW! PRIZES AND CHICAGO'S BEST STANDUP",
+    "venue_id": "EB_24472311",
+    "start": 1170,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51179418017",
+    "event_name": "ADVOCACY, INNOVATION, and INTERDISCIPLINARY COLLABORATION",
+    "venue_id": "EB_27250947",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52194171171",
+    "event_name": "Becoming Michelle",
+    "venue_id": "EB_27745016",
+    "start": 1200,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51750958510",
+    "event_name": "Undergraduate Language Grants: Student Panel",
+    "venue_id": "EB_27551877",
+    "start": 1080,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_50145353101",
+    "event_name": "Customer Success Initiative Team Meeting (Online)",
+    "venue_id": "EB_25787045",
+    "start": 540,
+    "end": 2460,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52431955390",
+    "event_name": "LAST CHANCE VIEWING for Woke & Winning Social Justice Art Exhibit and Happy Hour x3",
+    "venue_id": "EB_27503801",
+    "start": 960,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51311352637",
+    "event_name": "\"All of Me\" Free Screening ",
+    "venue_id": "EB_27324309",
+    "start": 1050,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_49020389304",
+    "event_name": "Managing Change Through Internal Communications",
+    "venue_id": "EB_26836275",
+    "start": 510,
+    "end": 3780,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 1295.0
+  },
+  {
+    "event_id": "EB_52056452250",
+    "event_name": "Get Slim! Start the day after Thanksgiving and lose 20-35 lbs by January 3",
+    "venue_id": "EB_27683163",
+    "start": 1140,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51563796704",
+    "event_name": "2018 Women in Sustainability Leadership Award Reception",
+    "venue_id": "EB_27458298",
+    "start": 1050,
+    "end": 1320,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 225.0
+  },
+  {
+    "event_id": "EB_51828823406",
+    "event_name": "EvolveSec / Hack Your Cybersecurity Career: Enter or Grow in the Industry",
+    "venue_id": "EB_27289214",
+    "start": 1080,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52315668573",
+    "event_name": "Accion In Your Neighborhood: Humboldt Park",
+    "venue_id": "EB_27808682",
+    "start": 1050,
+    "end": 1140,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52031303028",
+    "event_name": "Membership Event: Environmental Action Focus Meeting",
+    "venue_id": "EB_27438672",
+    "start": 1170,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52175111162",
+    "event_name": "Property Tax Appeal Workshop",
+    "venue_id": "EB_27733967",
+    "start": 1050,
+    "end": 1140,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51593150502",
+    "event_name": "Family Independence Initiative Info Session",
+    "venue_id": "EB_27906371",
+    "start": 1110,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51738889411",
+    "event_name": "Film and Discussion",
+    "venue_id": "EB_22319405",
+    "start": 1140,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52511597602",
+    "event_name": "Connecting With Courage",
+    "venue_id": "EB_25980819",
+    "start": 1140,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 40.0
+  },
+  {
+    "event_id": "EB_50582946956",
+    "event_name": "CPR/AED Certification for Work - Chicago (Lincoln Park) at Prenatal Fit Gym",
+    "venue_id": "EB_7288397",
+    "start": 1110,
+    "end": 41535,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 65.0
+  },
+  {
+    "event_id": "EB_51743809126",
+    "event_name": "Food Allergy Presentation- We Are All Affected ",
+    "venue_id": "EB_27520113",
+    "start": 1080,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52408027822",
+    "event_name": "Nature's 10 Secrets to Staying Healthy for the Holidays!",
+    "venue_id": "EB_27848995",
+    "start": 1110,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52247840698",
+    "event_name": "Taco Tuesday Game Night at Murphy's Lounge",
+    "venue_id": "EB_27773157",
+    "start": 1140,
+    "end": 1560,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52513904502",
+    "event_name": " Thanksgiving with a Twist: Vegan Indian Cooking Master Class",
+    "venue_id": "EB_27893130",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 20.0
+  },
+  {
+    "event_id": "EB_50772986369",
+    "event_name": "Start Your Own Credit Repair Business-Call Chicago-Felicia Guidry",
+    "venue_id": "EB_27050097",
+    "start": 1200,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51740130122",
+    "event_name": "Thinkful Webinar: What is a Data Scientist? ",
+    "venue_id": "EB_27543324",
+    "start": 1140,
+    "end": 1200,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_51750824108",
+    "event_name": "Free Grant Writing Intro Training - Chicago, Illinois",
+    "venue_id": "EB_27782024",
+    "start": 1170,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_45885542894",
+    "event_name": "Moonlight Yoga in Logan Square",
+    "venue_id": "EB_21555960",
+    "start": 1230,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 15.0
+  },
+  {
+    "event_id": "EB_48481052132",
+    "event_name": "SAFe\u00ae 4.0 Advanced Scrum Master with SASM Certification Training in Chicago, IL on Nov 13th-14th 2018",
+    "venue_id": "EB_22459177",
+    "start": 540,
+    "end": 2460,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 999.0
+  },
+  {
+    "event_id": "EB_51427507058",
+    "event_name": "Holiday Grief Support Groups",
+    "venue_id": "EB_27385468",
+    "start": 1140,
+    "end": 1230,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52012843816",
+    "event_name": "Learn How to Use Crystals",
+    "venue_id": "EB_26330843",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 33.0
+  },
+  {
+    "event_id": "EB_52451850898",
+    "event_name": "Tuco Taco Tuesday with Rodan + Fields",
+    "venue_id": "EB_27870625",
+    "start": 1050,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52453122702",
+    "event_name": "Def Leperchaun! ",
+    "venue_id": "EB_27729173",
+    "start": 1200,
+    "end": 1290,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52476002135",
+    "event_name": "Business Introduction Presentation by Scott Rowe",
+    "venue_id": "EB_25842698",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52512840319",
+    "event_name": "Yoga Love by Caress",
+    "venue_id": "EB_27892469",
+    "start": 1110,
+    "end": 1170,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": -10.0
+  },
+  {
+    "event_id": "EB_52537777908",
+    "event_name": "Rowe-Clark Visitor Day",
+    "venue_id": "EB_27904266",
+    "start": 1140,
+    "end": 153960,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 0.0
+  },
+  {
+    "event_id": "EB_52541012583",
+    "event_name": "Thanksgiving with a Twist: Vegan Indian Cooking Master Class + Dinner",
+    "venue_id": "EB_27893130",
+    "start": 1140,
+    "end": 1260,
+    "date": "11-13-2018",
+    "tags": "",
+    "price": 25.0
+  }
 ]
