@@ -22,12 +22,12 @@
     let directionsService = new google.maps.DirectionsService();
 
     function calcRoute() {
-      let origin      = new google.maps.LatLng(<%= @locs.first[:lat] %>, <%= @locs.first[:lng] %>);
-      let destination = new google.maps.LatLng(<%= @locs.last[:lat] %>, <%= @locs.last[:lng] %>);
+      let origin      = new google.maps.LatLng(<%= @locs.first[:latitude] %>, <%= @locs.first[:longitude] %>);
+      let destination = new google.maps.LatLng(<%= @locs.last[:latitude] %>, <%= @locs.last[:longitude] %>);
       let events = [];
       let event;
       <% @locs[1..-2].each do |loc| %>
-        event = new google.maps.LatLng(<%= loc[:lat] %>, <%= loc[:lng] %>);
+        event = new google.maps.LatLng(<%= loc[:latitude] %>, <%= loc[:longitude] %>);
         events.push({location: event, stopover: true});
       <% end %>
       let request = {
