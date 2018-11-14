@@ -20,6 +20,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'factory_bot_rails'
+  gem 'factory_girl_rails', '~> 4.9'
   gem 'rspec-rails', '~> 3.8'
   gem "better_errors"
   gem "binding_of_caller"
