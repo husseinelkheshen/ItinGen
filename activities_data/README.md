@@ -14,7 +14,7 @@ group of activities. Activity groups include:
 
 **Ticketmaster API:** Sports, Music
 
-**Yelp API:** Food, Museums
+**Yelp API:** Food, Museums, Nightlife
 
 **Eventbrite API:** City events
 
